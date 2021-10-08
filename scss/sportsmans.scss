@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .sprites{
+      display: none;
+  }
+  .sportsmans{
+    flex: 1 1 auto;
+      max-width: 1920px;
+      width: 100%;
+      margin: 0 auto 0 auto;
+    & .sportsmans__content{
+        max-width: 1536px;
+      width: 100%;
+      margin: 0 auto 0 auto;
+      padding: 104px 24px 156px 24px;
+        & .sportsmans-heading{
+            font-family: 'Magistral-Bold';
+            font-size: 63px;
+            color: #2B2B2B;
+            display: block;
+            margin: 0 0 16px 0;
+        }
+        & .sportsmans__select-button{
+            display: flex;
+            margin: 0 0 56px 0;
+            & .select-sportsmans{
+                margin: 0 24px 0 0;
+                max-width: 215px;
+                width: 100%;
+                position: relative;
+                & .select__header{
+                    cursor: pointer;
+                    align-items: center;
+                    display: flex;
+                    padding: 14px 20px 13px 20px;
+                    border: 1px solid #2B2B2B;
+                    border-radius: 50px;
+                    & .select__current{
+                        font-family: 'Inter-Regular';
+                        color: #2B2B2B;
+                        font-size: 15px;
+                    }
+                    & .select__icon{
+                        margin: 0 0 0 auto;
+                        width: 8px;
+                        height: 6px;
+                        display: block;
+                        & img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            & .select-button{
+                background-color: rgba(43, 43, 43, 0.1);
+                font-family: 'Magistral-Medium';
+                color: #ffffff;
+                font-size: 16px;
+                max-width: 215px;
+                width: 100%;
+                display: block;
+                padding: 14px 10px 14px 10px;
+                border-radius: 50px;
+                text-align: center;
+            }
+        }
+        & .select__mobile{
+            margin: 0 0 34px 0;
+            display: none;
+            & .select-sportsmans{
+                cursor: pointer;
+                max-width: 107px;
+                width: 100%;
+                & .select__header{
+                    display: flex;
+                    & .select__union{
+                        width: 17px;
+                        height: 17px;
+                        margin: 0 8px 0 0;
+                        & img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    & .select__current{
+                        font-family: 'Inter-Regular';
+                        color: #2B2B2B;
+                        font-size: 15px;
+                    }
+                    & .select__icon{
+                        margin: 0 0 0 8px;
+                        width: 8px;
+                        height: 6px;
+                        display: block;
+                        & img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover; 
+                        }
+                    }
+                }
+            }
+        }
+        & .swiper-container__sportsmans-main{
+            margin: 0 0 104px 0;
+            overflow: hidden;
+            width: 100%;
+            & .swiper-wrapper{
+                & .swiper-slide{
+                    & .slide-content__container{
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        grid-template-rows: repeat(4, 1fr);
+                        column-gap: 24px;
+                        row-gap: 72px;
+                        & .slide-content{
+                            cursor: pointer;
+                            display: block;
+                            position: relative;
+                            padding: 76px 0 0 0;
+                            width: 100%;
+                            max-width: 255px;
+                            text-decoration: none;
+                            &:hover .sportsman-name{
+                                color: #02489F;
+                            }
+                                & .kind-sport__image{
+                                    width: 104px;
+                                    height: 104px;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    & img{
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                                & .sportsman-name{
+                                    transition: 0.3s ease 0s;
+                                    font-family: 'Inter-Medium';
+                                    color: #2B2B2B;
+                                    font-size: 20px;
+                                    text-decoration: none;
+                                    display: block;
+                                    margin: 0 0 8px 0;
+                                }
+                                & .sportsman-descr{
+                                    font-family: 'Inter-Medium';
+                                    color: #02489F;
+                                    font-size: 15px;
+                                    text-decoration: none;
+                                    display: block;
+                                }
+                        }
+                    }
+                }
+            }
+        }
+        & .sportsmans-page__main-bullets{
+            width: 100%;
+            justify-content: center;
+            position: relative;
+            display: flex;
+            align-items: center;
+            & .swiper-button-prev__sportsmans-main{
+              width: 14px;
+              height: 12px;
+              fill: rgb(43, 43, 43);
+              cursor: pointer;
+              transition: all 0.3s ease 0s;
+              margin: 0 16px 0 0;
+              &:hover{
+                  fill: rgba(43, 43, 43, 0.7);
+              }  
+          }
+            & .swiper-pagination__sportsmans-main{
+                display: flex;
+                width: auto;
+                color: #2B2B2B;          
+                font-family: 'Inter-Medium';
+                font-size: 20px;   
+                    & .swiper-pagination-bullet{
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'Inter-Medium';
+                        font-size: 20px;
+                        color: #2B2B2B;
+                        opacity: 1;
+                        margin: 0 8px 0 8px;
+                        width: 32px;
+                        height: 32px;
+                        background-color: #ffffff;
+                        transition: 0.3s ease 0s;
+                        &:hover{
+                            background-color:rgba(2, 72, 159, 0.1);
+                        }
+                    }
+                    & .swiper-pagination-bullet-active{
+                        background-color: #02489F;
+                        color: #ffffff;
+                        &:hover{
+                            background-color: #02489F;
+                        }
+                    }
+            }
+            & .swiper-button-next__sportsmans-main{
+                width: 14px;
+                height: 12px;
+                fill: rgb(43, 43, 43);
+                cursor: pointer;
+                transition: all 0.3s ease 0s;
+                margin: 0 0 0 16px;
+                &:hover{
+                    fill: rgba(43, 43, 43, 0.7);
+                }  
+            }
+            & .swiper-button-disabled{
+              fill: rgba(43, 43, 43, 0.3);
+          }
+        }
+    }
+  }
+  @media (max-width: 1000px){
+    .sportsmans{
+      & .sportsmans__content{
+        padding: 104px 24px 104px 24px;
+          & .sportsmans-heading{
+              font-size: 40px;
+          }
+          & .sportsmans__select-button{
+              & .select-sportsmans{
+                  & .select__header{
+                      & .select__current{
+                      }
+                      & .select__icon{
+                          & img{
+                          }
+                      }
+                  }
+              }
+              & .select-button{
+              }
+          }
+          & .select__mobile{
+              & .select-sportsmans{
+                  & .select__header{
+                      & .select__union{
+                          & img{
+                          }
+                      }
+                      & .select__current{
+                      }
+                      & .select__icon{
+                          & img{
+                          }
+                      }
+                  }
+              }
+          }
+          & .swiper-container__sportsmans-main{
+              & .swiper-wrapper{
+                  & .swiper-slide{
+                      & .slide-content__container{
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-template-rows: repeat(5, 1fr);
+                          & .slide-content{
+                              &:nth-last-child(1){
+                                  display: none;
+                              }
+                              &:hover .sportsman-name{
+                              }
+                                  & .kind-sport__image{
+                                      & img{
+  
+                                      }
+                                  }
+                                  & .sportsman-name{
+                                  }
+                                  & .sportsman-descr{
+                                  }
+                          }
+                      }
+                  }
+              }
+          }
+          & .sportsmans-page__main-bullets{
+              & .swiper-button-prev__sportsmans-main{
+                &:hover{
+                }  
+            }
+              & .swiper-pagination__sportsmans-main{
+                  & .swiper-pagination-bullet{
+  
+                  }
+                  & .swiper-pagination-bullet-active{
+                  }
+              }
+              & .swiper-button-next__sportsmans-main{
+                  &:hover{
+                  }  
+              }
+              & .swiper-button-disabled{
+            }
+          }
+      }
+    }
+  }
+  @media (max-width: 700px){
+    .sportsmans{
+      & .sportsmans__content{
+        padding: 72px 10px 72px 10px;
+          & .sportsmans-heading{
+              font-size: 30px;
+          }
+          & .sportsmans__select-button{
+              display: none;
+              & .select-sportsmans{
+                  & .select__header{
+                      & .select__current{
+                      }
+                      & .select__icon{
+                          & img{
+                          }
+                      }
+                  }
+              }
+              & .select-button{
+              }
+          }
+          & .select__mobile{
+              display: block;
+              & .select-sportsmans{
+                  & .select__header{
+                      & .select__union{
+                          & img{
+                          }
+                      }
+                      & .select__current{
+                      }
+                      & .select__icon{
+                          & img{
+                          }
+                      }
+                  }
+              }
+          }
+          & .swiper-container__sportsmans-main{
+              margin: 0 0 72px 0;
+              & .swiper-wrapper{
+                  & .swiper-slide{
+                      & .slide-content__container{
+                        grid-template-columns: repeat(1, 1fr);
+                        grid-template-rows: repeat(12, 1fr);
+                        column-gap: 0;
+                        row-gap: 32px;
+                          & .slide-content{
+                            padding: 56px 0 0 0;
+                            max-width: 320px;
+                              &:nth-last-child(-n+4){
+                                  display: none;
+                              }
+                              &:hover .sportsman-name{
+                              }
+                                  & .kind-sport__image{
+                                      width: 80px;
+                                      height: 80px;
+                                      & img{
+  
+                                      }
+                                  }
+                                  & .sportsman-name{
+                                      font-size: 17px;
+                                  }
+                                  & .sportsman-descr{
+                                  }
+                          }
+                      }
+                  }
+              }
+          }
+          & .sportsmans-page__main-bullets{
+              & .swiper-button-prev__sportsmans-main{
+                &:hover{
+                }  
+            }
+              & .swiper-pagination__sportsmans-main{
+                  & .swiper-pagination-bullet{
+  
+                  }
+                  & .swiper-pagination-bullet-active{
+                  }
+              }
+              & .swiper-button-next__sportsmans-main{
+                  &:hover{
+                  }  
+              }
+              & .swiper-button-disabled{
+            }
+          }
+      }
+    }
+  }

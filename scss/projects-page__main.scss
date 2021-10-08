@@ -1,0 +1,1160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .sprites{
+      display: none;
+  }
+  .projects-page__main{
+    flex: 1 1 auto;
+    margin: 0 auto 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    & .news-page__main-back{
+        max-width: 1536px;
+        width: 100%;
+        padding: 104px 24px 156px 24px;
+        margin: 0 auto 0 auto;
+        & .news-page__content-back{
+            & .projects-page__main-bullets{
+                margin: 104px 0 0 0;
+                width: 100%;
+                justify-content: center;
+                position: relative;
+                display: flex;
+                align-items: center;
+                display: none;
+                & .swiper-button-prev__projects-main{
+                  width: 14px;
+                  height: 12px;
+                  fill: rgb(43, 43, 43);
+                  cursor: pointer;
+                  transition: all 0.3s ease 0s;
+                  margin: 0 16px 0 0;
+                  &:hover{
+                      fill: rgba(43, 43, 43, 0.7);
+                  }  
+              }
+                & .swiper-pagination__projects-main{
+                    display: flex;
+                    width: auto;
+                    color: #2B2B2B;          
+                    font-family: 'Inter-Medium';
+                    font-size: 20px;   
+                        & .swiper-pagination-bullet{
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: 'Inter-Medium';
+                            font-size: 20px;
+                            color: #2B2B2B;
+                            opacity: 1;
+                            margin: 0 8px 0 8px;
+                            width: 32px;
+                            height: 32px;
+                            background-color: #ffffff;
+                            transition: 0.3s ease 0s;
+                            &:hover{
+                                background-color:rgba(2, 72, 159, 0.1);
+                            }
+                        }
+                        & .swiper-pagination-bullet-active{
+                            background-color: #02489F;
+                            color: #ffffff;
+                            &:hover{
+                                background-color: #02489F;
+                            }
+                        }
+                }
+                & .swiper-button-next__projects-main{
+                    width: 14px;
+                    height: 12px;
+                    fill: rgb(43, 43, 43);
+                    cursor: pointer;
+                    transition: all 0.3s ease 0s;
+                    margin: 0 0 0 16px;
+                    &:hover{
+                        fill: rgba(43, 43, 43, 0.7);
+                    }  
+                }
+                & .swiper-button-disabled{
+                  fill: rgba(43, 43, 43, 0.3);
+              }
+            }
+            & .media-search__list{
+                display: none;
+                align-items: center;
+                margin: 0 0 32px 0;
+                cursor: pointer;
+                max-width: 135px;
+                & span{
+                    line-height: 140%;
+                    display: block;
+                    font-family: 'Inter-Regular';
+                    font-size: 15px;
+                    color: #2b2b2b;
+                    margin: 0 8px 0 0;
+                }
+                & img{
+                    width: 8px;
+                    height: 6px;
+                    margin: 1px 0 0 0;
+                }
+            }
+            & .news__main-heading{
+                line-height: 120%;
+                font-family: 'Magistral-Bold';
+                font-size: 63px;
+                color: #2B2B2B;
+                display: block;
+                margin: 0 0 8px 0;
+            }
+          & .news-tags__container{
+                display: flex;
+                align-items: center;
+                margin: 0 0 48px 0;
+              & .news-page__tags{
+                  display: flex;
+                  flex-wrap: wrap;
+                  & .news-tags__descr{
+                    white-space: nowrap;
+                    line-height: 140%;
+                    display: flex;
+                    align-items: center;
+                    font-family: 'Inter-Regular';
+                    font-size: 15px;
+                    color: #2b2b2b;
+                    margin: 0 16px 0 0;
+                  }
+                  & .news-page__tag-container{
+                    padding: 9px 0 9px 0;
+                    margin: 8px 8px 8px 0;
+                      & .news__tag{
+                        cursor: pointer;
+                        padding: 9px 12px 9px 12px;
+                        font-family: 'Inter-Medium';
+                        font-size: 15px;
+                        color: #02489F;
+                        border-radius: 50px;
+                        background: rgba(2, 72, 159, 0.2);
+                        transition: 0.3s ease 0s;
+                        &:hover{
+                        color: #ffffff;
+                        background: #02489F;
+                        }
+                      }
+                  }
+              }
+          }
+          & .swiper-container__projects-main{
+            & .swiper-wrapper{
+                  & .swiper-slide{
+                      & .slide-content__container{
+                        & .projects__content{
+                            gap: 40px;
+                            margin: 0 0 72px 0;
+                            grid-template-columns: repeat(4, 1fr);
+                            display: grid;
+                            & .projects__double-card{
+                                background-color: #ffffff;
+                                max-width: 724px;
+                                display: flex;
+                                box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+                                &:nth-child(odd){
+                                    grid-column: 1/3;
+                                    margin: 0 0 0 0;
+                                }
+                                &:nth-child(even){
+                                    grid-column: 3/5;
+                                    margin: 0 0 0 0;
+                                }
+                                & .double-card__image{
+                                    display: block;
+                                    width: 100%;
+                                    max-width: 342px;
+                                    & img{
+                                    width: 100%;
+                                    display: block;
+                                    object-fit: cover;
+                                    height: 100%;
+                                    }
+                                }
+                                & .double-card__content{
+                                    max-width: 380px;
+                                    width: 100%;
+                                    padding: 24px 24px 16px 40px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                                    & .double-card__text{
+                                        & h1{
+                                            font-family: 'Inter-Bold';
+                                            font-size: 20px;
+                                            color: #2B2B2B;
+                                            display: block;
+                                        }
+                                        & hr{
+                                            height: 2px;
+                                            background-color: #02489F;
+                                            color: #02489F;
+                                            width: 56px;
+                                            border: none;
+                                            margin: 8px 0 16px 0;
+                                        }
+                                        & .card__content-text{
+                                            margin: 0 0 32px 0;
+                                            font-family: 'Inter-Regular';
+                                            font-size: 15px;
+                                            color: #2B2B2B;
+                                            display: block;
+                                            text-decoration: none;
+                                        }
+                                        & .card__content-more{
+                                            font-family: 'Inter-Medium';
+                                            font-size: 15px;
+                                            color: #02489F;
+                                            display: block;
+                                            transition: 0.3s ease 0s;
+                                            &:hover{
+                                                color: rgba(2, 72, 159, 0.7);
+                                            }
+                                        }
+                                    }
+                                    & .card__content-tags{
+                                        margin: 16px 0 0 0;
+                                        display: flex;
+                                        & .card__content-tag{
+                                            font-family: 'Inter-Medium';
+                                            font-size: 15px;
+                                            display: block;
+                                            color: rgba(2, 72, 159, 0.3);
+                                            margin: 0 16px 0 0;
+                                            text-decoration: none;
+                                            transition: 0.3s ease 0s;
+                                            &:hover{
+                                            color: rgba(2, 72, 159, 1);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            & .projects__single-card{
+                                box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+                                background-color: #ffffff;
+                                position: relative;
+                                max-width: 342px;
+                                width: 100%;
+                                & .single-card__image{
+                                    max-width: 342px;
+                                    display: block;
+                                    height: 100%;
+                                    width: 100%;
+                                    & img{
+                                        display: block;
+                                        object-fit: cover;
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                                & .single-card__text{
+                                    padding: 16px 24px 16px 24px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    justify-content: flex-end;
+                                    &:hover h2{
+                                       color: rgba(255, 255, 255, 0.7);
+                                    }
+                                    & h2{
+                                        transition: 0.3s ease 0s;
+                                        font-family: 'Inter-Bold';
+                                            font-size: 20px;
+                                            color: #ffffff;
+                                            display: block;
+                                            text-decoration: none;
+                                            margin: 0 0 16px 0;
+                                    }
+                                    & .single-card-tags{
+                                        display: flex;
+                                        & .single-card-tag{
+                                            margin: 0 16px 0 0;
+                                            text-decoration: none;
+                                            display: block;
+                                            font-family: 'Inter-Medium';
+                                            font-size: 15px;
+                                            color: rgba(255, 255, 255, 0.5);
+                                            transition: 0.3s ease 0s;
+                                            &:hover{
+                                            color: rgba(255, 255, 255, 1);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            & .projects__vertical-card{
+                                box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+                                display: flex;
+                                flex-direction: column;
+                                background-color: #ffffff;
+                                max-width: 342px;
+                                width: 100%;
+                                & .vertical-card__image{
+                                    max-width: 342px;
+                                    max-height: 120px;
+                                    width: 100%;
+                                    display: block;
+                                    & img{
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        display: block;
+                                    }
+                                }
+                                & .vertical-card__text{
+                                    height: 100%;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    flex-direction: column;
+                                    padding: 24px 24px 16px 24px;
+                                    & .card__text-content{
+                                        height: 100%;
+                                        & h2{
+                                            font-family: 'Inter-Bold';
+                                                font-size: 20px;
+                                                color: #2B2B2B;;
+                                                display: block;
+                                                text-decoration: none;
+                                        }
+                                        & hr{
+                                            height: 2px;
+                                                background-color: #02489F;
+                                                color: #02489F;
+                                                width: 56px;
+                                                border: none;
+                                                margin: 8px 0 16px 0;
+                                        }
+                                        & .single__content-text{
+                                            margin: 0 0 32px 0;
+                                            font-family: 'Inter-Regular';
+                                            font-size: 15px;
+                                            color: #2B2B2B;
+                                            display: block;
+                                            text-decoration: none;
+                                        }
+                                        & .single__content-more{
+                                            font-family: 'Inter-Medium';
+                                            font-size: 15px;
+                                            color: #02489F;
+                                            display: block;
+                                            margin: 0 0 31px 0;
+                                            transition: 0.3s ease 0s;
+                                            &:hover{
+                                                color: rgba(2, 72, 159, 0.7);
+                                            }
+                                        }
+                                    }
+                                    & .vertical-card-tags{
+                                        margin: 20px 0 0 0;
+                                        display: flex;
+                                        & .vertical-card-tag{
+                                            margin: 0 16px 0 0;
+                                            text-decoration: none;
+                                            display: block;
+                                            font-family: 'Inter-Medium';
+                                            font-size: 15px;
+                                            color: rgba(2, 72, 159, 0.3);
+                                            transition: 0.3s ease 0s;
+                                            &:hover{
+                                            color: rgba(2, 72, 159, 1);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                      }
+                }
+            }
+        }
+        }
+        
+    }
+  }
+@media (max-width: 1200px){
+    .projects-page__main{
+        & .news-page__main-back{
+            & .news-page__main-bullets{
+               
+                & .swiper-button-prev__projects-main{
+                  
+                  &:hover{
+                      
+                  }  
+              }
+                & .swiper-pagination__projects-main{
+    
+                }
+                & .swiper-button-next__projects-main{
+                   
+                    &:hover{
+                        
+                    }  
+                }
+                & .swiper-button-disabled{
+                  
+              }
+            }
+            & .news-page__content-back{
+                & .media-search__list{
+                    
+                    & span{
+                        
+                    }
+                    & img{
+                        
+                    }
+                }
+                & .news__main-heading{
+                }
+              & .news-tags__container{
+                    
+                  & .news-page__tags{
+                    & .news-tags__descr{
+                    
+                    }
+                      & .news-page__tag-container{
+                        
+                          & .news__tag{
+                            
+                          }
+                      }
+                  }
+              }
+              & .swiper-container__projects-main{
+                  
+                  & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .slide-content__container{
+                                & .projects__content{
+                                    max-width: 1100px;
+                                    margin: 0 auto 0 auto;
+                                    grid-template-rows: repeat(2, 1fr);
+                                    grid-template-columns: repeat(3, 1fr);
+                                    & .projects__double-card{
+                                        &:nth-child(1){
+                                            grid-column: 1/3;
+                                            grid-row: 1/2;
+                                        }
+                                        &:nth-child(2){
+                                            grid-column: 1/3;
+                                            grid-row: 2/3;
+                                        }
+                                       
+                                        &:nth-child(7){
+                                            grid-column: 1/3;
+                                            grid-row: 3/4;
+                                        }
+                                        &:nth-child(8){
+                                            grid-column: 1/3;
+                                            grid-row: 4/5;
+                                        }
+                                        &:nth-child(9){
+                                            grid-column: 1/3;
+                                            grid-row: 5/6;
+                                        }
+                                        & .double-card__image{
+                                           
+                                            & img{
+                                            
+                                            }
+                                        }
+                                        & .double-card__content{
+                                            
+                                            & .double-card__text{
+                                                & h1{
+                                                    
+                                                }
+                                                & hr{
+                                                    
+                                                }
+                                                & .card__content-text{
+                                                    
+                                                }
+                                                & .card__content-more{
+                                                    
+                                                }
+                                            }
+                                            & .card__content-tags{
+                                                
+                                                & .card__content-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__single-card{
+                                        &:nth-child(3){
+                                            grid-column: 3/4;
+                                            grid-row: 1/2;
+                                        }
+                                        &:nth-child(6){
+                                            grid-column: 3/4;
+                                            grid-row: 3/4;
+                                        }
+                                       
+                                        &:nth-child(9){
+                                            grid-column: 1/2;
+                                            grid-row: 5/6;
+                                        }
+                                        & .single-card__image{
+                                            
+                                            & img{
+                                                
+                                            }
+                                        }
+                                        & .single-card__text{
+                                            
+                                            & h2{
+                                                
+                                            }
+                                            & .single-card-tags{
+                                                
+                                                & .single-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__vertical-card{
+                                        &:nth-child(4){
+                                            grid-column: 3/4;
+                                            grid-row: 2/3;
+                                        }
+                                        &:nth-child(5){
+                                            grid-column: 3/4;
+                                            grid-row: 4/5;
+                                        }
+                                       
+                                        &:nth-child(10){
+                                            grid-column: 2/3;
+                                            grid-row: 5/6;
+                                        }
+                                        & .vertical-card__image{
+                                            
+                                            & img{
+                                                
+                                            }
+                                        }
+                                            & .vertical-card__text{
+                                                & .card__text-content{
+                                                & h2{
+                                                    
+                                                }
+                                                & hr{
+                                                    
+                                                }
+                                                & .single__content-text{
+                                                    
+                                                }
+                                                & .single__content-more{
+                                                    
+                                                }
+                                                }
+                                        
+                                            & .vertical-card-tags{
+                                                
+                                                & .vertical-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                              }
+                      }
+                  }
+              }
+            }
+        }
+      }
+}
+@media (max-width: 1000px){
+    .projects-page__main{
+        & .news-page__main-back{
+            padding: 104px 24px 104px 24px;
+            & .news-page__main-bullets{
+               
+                & .swiper-button-prev__projects-main{
+                  
+                  &:hover{
+                      
+                  }  
+              }
+                & .swiper-pagination__projects-main{
+    
+                }
+                & .swiper-button-next__projects-main{
+                   
+                    &:hover{
+                        
+                    }  
+                }
+                & .swiper-button-disabled{
+                  
+              }
+            }
+            & .news-page__content-back{
+                & .media-search__list{
+                    
+                    & span{
+                        
+                    }
+                    & img{
+                        
+                    }
+                }
+                & .news__main-heading{
+                    font-size: 40px;
+                }
+              & .news-tags__container{
+                    
+                  & .news-page__tags{
+                    & .news-tags__descr{
+                    
+                    }
+                      & .news-page__tag-container{
+                        
+                          & .news__tag{
+                            
+                          }
+                      }
+                  }
+              }
+              & .swiper-container__projects-main{
+                  
+                  & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .slide-content__container{
+                                & .projects__content{
+                                    gap: 24px;
+                                    & .projects__double-card{
+                                        
+                                        &:nth-child(1){
+                                            
+                                        }
+                                        &:nth-child(2){
+                                            
+                                        }
+                                        & .double-card__image{
+                                           
+                                            & img{
+                                            
+                                            }
+                                        }
+                                        & .double-card__content{
+                                            
+                                            & .double-card__text{
+                                                & h1{
+                                                    
+                                                }
+                                                & hr{
+                                                    
+                                                }
+                                                & .card__content-text{
+                                                    
+                                                }
+                                                & .card__content-more{
+                                                    
+                                                }
+                                            }
+                                            & .card__content-tags{
+                                                
+                                                & .card__content-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__single-card{
+                                        &:last-child{
+                                            
+                                        }
+                                        & .single-card__image{
+                                            
+                                            & img{
+                                                
+                                            }
+                                        }
+                                        & .single-card__text{
+                                            
+                                            & h2{
+                                                
+                                            }
+                                            & .single-card-tags{
+                                                
+                                                & .single-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__vertical-card{
+                                        &:last-child{
+                                            
+                                        }
+                                        & .vertical-card__image{
+                                            
+                                            & img{
+                                                
+                                            }
+                                        }
+                                            & .vertical-card__text{
+                                                & .card__text-content{
+                                                & h2{
+                                                    
+                                                }
+                                                & hr{
+                                                    
+                                                }
+                                                & .single__content-text{
+                                                    
+                                                }
+                                                & .single__content-more{
+                                                    
+                                                }
+                                                }
+                                        
+                                            & .vertical-card-tags{
+                                                
+                                                & .vertical-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                              }
+                      }
+                  }
+              }
+            }
+        }
+      }
+  }
+
+  @media (max-width: 900px){
+    .projects-page__main{
+        & .news-page__main-back{
+            padding: 104px 24px 104px 24px;
+            & .news-page__main-bullets{
+               
+                & .swiper-button-prev__projects-main{
+                  
+                  &:hover{
+                      
+                  }  
+              }
+                & .swiper-pagination__projects-main{
+    
+                }
+                & .swiper-button-next__projects-main{
+                   
+                    &:hover{
+                        
+                    }  
+                }
+                & .swiper-button-disabled{
+                  
+              }
+            }
+            & .news-page__content-back{
+                & .media-search__list{
+                    
+                    & span{
+                        
+                    }
+                    & img{
+                        
+                    }
+                }
+                & .news__main-heading{
+                    
+                }
+              & .news-tags__container{
+                    
+                  & .news-page__tags{
+                    & .news-tags__descr{
+                    
+                    }
+                      & .news-page__tag-container{
+                        
+                          & .news__tag{
+                            
+                          }
+                      }
+                  }
+              }
+              & .swiper-container__projects-main{
+                  
+                  & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .slide-content__container{
+                                & .projects__content{
+                                    grid-template-rows: auto;
+                                    grid-template-columns: repeat(2, 1fr);
+                                    & .projects__double-card{
+                                        flex-direction: column;
+                                        &:nth-child(1){
+                                            grid-column: 1/2;
+                                            grid-row: 1/2;
+                                        }
+                                        &:nth-child(2){
+                                            grid-column: 2/3;
+                                            grid-row: 1/2;
+                                        }
+                                       
+                                        &:nth-child(7){
+                                            grid-column: 1/2;
+                                            grid-row: 3/4;
+                                        }
+                                        &:nth-child(8){
+                                            grid-column: 2/3;
+                                            grid-row: 3/4;
+                                        }
+                                        &:nth-child(9){
+                                            grid-column: 1/2;
+                                            grid-row: 5/6;
+                                        }
+                                        & .double-card__image{
+                                            max-width: 430px;
+                                            & img{
+                                            
+                                            }
+                                        }
+                                        & .double-card__content{
+                                            max-width: 430px;
+                                            height: 100%;
+                                            padding: 16px 16px 16px 16px;
+                                            & .double-card__text{
+                                                & h1{
+                                                    
+                                                }
+                                                & hr{
+                                                    
+                                                }
+                                                & .card__content-text{
+                                                    
+                                                }
+                                                & .card__content-more{
+                                                    
+                                                }
+                                            }
+                                            & .card__content-tags{
+                                                margin: 10px 0 0 0;
+                                                & .card__content-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__single-card{
+                                        &:nth-child(3){
+                                            grid-column: 1/2;
+                                            grid-row: 2/3;
+                                        }
+                                        &:nth-child(6){
+                                            grid-column: 1/2;
+                                            grid-row: 4/5;
+                                        }
+                                       
+                                        &:nth-child(9){
+                                            grid-column: 1/2;
+                                            grid-row: 5/6;
+                                        }
+                                        max-width: 430px;
+                                        & .single-card__image{
+                                            max-width: 430px;
+                                            & img{
+                                                
+                                            }
+                                        }
+                                        & .single-card__text{
+                                            
+                                            & h2{
+                                                
+                                            }
+                                            & .single-card-tags{
+                                                
+                                                & .single-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__vertical-card{
+                                        &:nth-child(4){
+                                            grid-column: 2/3;
+                                            grid-row: 2/3;
+                                        }
+                                        &:nth-child(5){
+                                            grid-column: 2/3;
+                                            grid-row: 4/5;
+                                        }
+                                       
+                                        &:nth-child(10){
+                                            grid-column: 2/3;
+                                            grid-row: 5/6;
+                                        }
+                                        max-width: 430px;
+                                        & .vertical-card__image{
+                                            max-width: 430px;
+                                            & img{
+                                                
+                                            }
+                                        }
+                                        & .vertical-card__text{
+                                            padding: 16px 16px 16px 16px;
+                                            & .card__text-content{
+                                            & h2{
+                                                
+                                            }
+                                            & hr{
+                                                
+                                            }
+                                            & .single__content-text{
+                                                
+                                            }
+                                            & .single__content-more{
+                                                
+                                            }
+                                        }
+                                            & .vertical-card-tags{
+                                                
+                                                & .vertical-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }                   
+                            }
+                      }
+                  }
+              }
+            }
+        }
+      }
+  }
+
+  @media (max-width: 700px){
+    .projects-page__main{
+        & .news-page__main-back{
+            padding: 74px 10px 74px 10px;
+            & .news-page__main-bullets{
+                margin: 72px 0 0 0;
+                & .swiper-button-prev__projects-main{
+                  
+                  &:hover{
+                      
+                  }  
+              }
+                & .swiper-pagination__projects-main{
+    
+                }
+                & .swiper-button-next__projects-main{
+                   
+                    &:hover{
+                        
+                    }  
+                }
+                & .swiper-button-disabled{
+                  
+              }
+            }
+            & .news-page__content-back{
+                & .media-search__list{
+                    
+                    & span{
+                        
+                    }
+                    & img{
+                        
+                    }
+                }
+                & .news__main-heading{
+                    font-size:30px;
+                    margin: 0 0 32px 0;
+                }
+              & .news-tags__container{
+                display: none;
+                  & .news-page__tags{
+                    & .news-tags__descr{
+                    
+                    }
+                      & .news-page__tag-container{
+                        
+                          & .news__tag{
+                            
+                          }
+                      }
+                  }
+              }
+              & .media-search__list{
+                  display: flex;
+              }
+              & .swiper-container__projects-main{
+                  & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .slide-content__container{
+                                & .projects__content{
+                                    gap: 32px;
+                                    grid-template-columns: repeat(1, 1fr);
+                                    margin: 0 0 43px 0;
+                                    & .projects__double-card{
+                                        
+                                        &:nth-child(1){
+                                            grid-column: 1/2;
+                                            grid-row: 1/2;
+                                        }
+                                        &:nth-child(2){
+                                            grid-column: 1/2;
+                                            grid-row: 2/3;
+                                        }
+                                       
+                                        &:nth-child(7){
+                                            grid-column: 1/2;
+                                            grid-row: 7/8;
+                                        }
+                                        &:nth-child(8){
+                                            grid-column: 1/2;
+                                            grid-row: 8/9;
+                                        }
+                                        &:nth-child(9){
+                                            grid-column: 1/2;
+                                            grid-row: 9/10;
+                                        }
+                                        & .double-card__image{
+                                            max-width: 700px;
+                                            & img{
+                                            
+                                            }
+                                        }
+                                        & .double-card__content{
+                                            max-width: 700px;
+                                            & .double-card__text{
+                                                & h1{
+                                                    font-size: 17px;
+                                                }
+                                                & hr{
+                                                    
+                                                }
+                                                & .card__content-text{
+                                                    
+                                                }
+                                                & .card__content-more{
+                                                    
+                                                }
+                                            }
+                                            & .card__content-tags{
+                                                
+                                                & .card__content-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__single-card{
+                                        &:nth-child(3){
+                                            grid-column: 1/2;
+                                            grid-row: 3/4;
+                                        }
+                                        &:nth-child(6){
+                                            grid-column: 1/2;
+                                            grid-row: 6/7;
+                                        }
+                                       
+                                        &:nth-child(9){
+                                            grid-column: 1/2;
+                                            grid-row: 9/10;
+                                        }
+                                        max-width: 700px;
+                                        & .single-card__image{
+                                            max-width: 700px;
+                                            & img{
+                                                
+                                            }
+                                        }
+                                        & .single-card__text{
+                                            
+                                            & h2{
+                                                font-size: 17px;
+                                            }
+                                            & .single-card-tags{
+                                                
+                                                & .single-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    & .projects__vertical-card{
+                                        &:nth-child(4){
+                                            grid-column: 1/2;
+                                            grid-row: 4/5;
+                                        }
+                                        &:nth-child(5){
+                                            grid-column: 1/2;
+                                            grid-row: 5/6;
+                                        }
+                                       
+                                        &:nth-child(10){
+                                            grid-column: 1/2;
+                                            grid-row: 10/11;
+                                        }
+                                        max-width: 700px;
+                                        & .vertical-card__image{
+                                            max-width: 700px;
+                                            & img{
+                                                
+                                            }
+                                        }
+                                        & .vertical-card__text{
+                                            & .card__text-content{
+                                            & h2{
+                                                
+                                            }
+                                            & hr{
+                                                
+                                            }
+                                            & .single__content-text{
+                                                
+                                            }
+                                            & .single__content-more{
+                                                
+                                            }
+                                        }
+                                            & .vertical-card-tags{
+                                                
+                                                & .vertical-card-tag{
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                      }
+                  }
+              }
+            }
+        }
+      }
+  }

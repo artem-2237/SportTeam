@@ -1,0 +1,902 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/*general*/
+.sprites{
+    display: none;
+}
+.main__button{
+    font-family: 'Magistral-Medium';
+    color: #ffffff;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    padding: 24px 0 23px 0;
+    max-width: 280px;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+    & img{
+        width: 16px;
+        height: 16px;
+        margin: 0 0 0 16px;
+    }
+}
+/*general*/
+.competition-calendar{
+    flex: 1 1 auto;
+    position: relative;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    background-color: #ffffff;
+    & .calendar-right__top{
+        max-width: 300px;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        right: 0;
+        top: 321px;
+        z-index: 1;
+    }
+    & .calendar-left__bottom{
+        width: 100%;
+        object-fit: cover;
+        max-width: 408px;
+        left: 46px;
+        bottom: 187px;
+        position: absolute;
+        z-index: 1;
+    }
+    & .calendar-back{
+        position: relative;
+        max-width: 1536px;
+        margin: 0 auto 0 auto;
+        width: 100%;
+        z-index: 1;
+        padding: 104px 24px 104px 24px;
+        & .calendar__selects{
+            margin: 0 0 56px 0;
+            display: none;
+            & .select{
+                margin: 0 24px 0 0;
+                max-width: 213px;
+                width: 100%;
+                position: relative;
+                & .select__header{
+                    cursor: pointer;
+                    align-items: center;
+                    display: flex;
+                    padding: 14px 20px 13px 20px;
+                    border: 1px solid #2B2B2B;
+                        border-radius: 50px;
+                    & .select__current{
+                        font-family: 'Inter-Regular';
+                        color: #2B2B2B;
+                        font-size: 15px;
+                    }
+                }
+                & .select__icon{
+                    margin: 0 0 0 auto;
+                    width: 8px;
+                    height: 6px;
+                    display: block;
+                    & img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        display: block;
+                    }
+                }
+                & .select__body{
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 100%;
+                    border: 1px solid #2B2B2B;
+                    border-top: 0;
+                    & .select__item{
+                        font-family: 'Inter-Regular';
+                        color: #2B2B2B;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        & .calendar-buttons__slider{
+            display: none;
+        }
+        .select.active .select__body{
+            display: block;
+        }
+        & .calendar-heading{
+            font-family: 'Magistral-Bold';
+            color: #2B2B2B;
+            font-size: 63px;
+            margin: 0 0 56px 0;
+            display: block;
+        }
+        & .calendar__content{
+            & .calendar-years{
+                display: flex;
+                justify-content: center;
+                margin: 0 0 32px 0;
+                & .calendar-years__btn{
+                    cursor: pointer;
+                    max-width: 117px;
+                    width: 100%;
+                    font-family: 'Inter-Regular';
+                    color: #2B2B2B;
+                    font-size: 15px;
+                    border: 1px solid rgba(43, 43, 43, 0.1);
+                    border-radius: 50px;
+                    background-color: rgba(43, 43, 43, 0);
+                    padding: 14px 0 13px 0;
+                    margin: 0 12px 0 12px;
+                    transition: 0.3s ease 0s;
+                    &:hover{
+                        border: 1px solid rgba(43, 43, 43, 1); 
+                    }
+                }
+            }
+            & .calendar-months{
+                border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+                padding: 0 0 12px 0;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 32px 0;
+                & .calendar-months__btn{
+                    cursor: pointer;
+                    text-align: center;
+                    background-color: rgba(43, 43, 43, 0);
+                    font-family: 'Inter-Regular';
+                    color: #2B2B2B;
+                    font-size: 15px;
+                    border: none;
+                    max-width: 88px;
+                    width: 100%;
+                    padding: 0 10px 0 10px;
+                }
+            }
+            & .calendar__mein{
+                background-color: #ffffff;
+                max-width: 1488px;
+                width: 100%;
+                margin: 0 0 72px 0;
+                & .swiper-wrapper{
+                    display: flex;
+                        flex-direction: column;
+                    & .swiper-slide{
+                        & .calendar-event{
+                            display: flex;
+                            width: 100%;
+                            border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+                            & .calendar-event__container-1{
+                                padding: 32px 20px 32px 20px;
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+                                max-width: 426px;
+                                width: 100%;
+                                position: relative;
+                                border-right: 1px solid #02489F;
+                                & .kind__image{
+                                    min-width: 56px;
+                                    top: 0;
+                                    bottom: 0;
+                                    margin: auto;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-image: url(../img/main/calendar__circle.svg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    width: 56px;
+                                    height: 56px;
+                                    position: absolute;
+                                    right: -28px;
+                                    & .circle__icon{
+                                        
+                                    }
+                                }
+                                & .calendar-kind__sport-date{
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: flex-end;
+                                    & h2{
+                                        font-family: 'Inter-Medium';
+                                        font-size: 20px;
+                                        color: #2B2B2B;
+                                        display: block;
+                                        margin: 0 0 8px 0;
+                                    }
+                                    & .calendar-kind__sport{
+                                        font-family: 'Inter-Regular';
+                                        font-size: 15px;
+                                        color: #2B2B2B;
+                                        display: block;
+                                    }
+                                }
+                            }
+                            & .calendar-event__container-2{
+                                padding: 32px 20px 32px 48px;
+                                max-width: 593px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                & .container-2__content{
+                                    max-width: 440px;
+                                    width: 100%;
+                                    & .calendar-event__place{
+                                        font-family: 'Inter-Medium';
+                                        font-size: 15px;
+                                        color: rgba(43, 43, 43, 0.5);
+                                        display: block;
+                                    }
+                                    & .calendar-event__tournament{
+                                        font-family: 'Inter-Medium';
+                                        font-size: 20px;
+                                        color: rgb(43, 43, 43);
+                                        display: block;
+                                        margin: 16px 0 16px 0;
+                                    }
+                                    & .calendar-event__participants{
+                                        font-family: 'Inter-Medium';
+                                        font-size: 15px;
+                                        color: rgba(43, 43, 43, 0.5);
+                                        display: block;
+                                    }
+                                    & .participants-list{
+                                        color: #02489F;
+                                        & .participant{
+                                        color: #02489F;
+                                        font-family: 'Inter-Medium';
+                                        font-size: 15px;
+                                        text-decoration: none;
+                                        transition: 0.3s ease 0s;
+                                        &:hover{
+                                        color: rgba(2, 72, 159, 0.7);
+                                        }
+                                        }
+                                    }
+                                }
+                            }
+                            & .calendar-event__container-3{
+                                max-width: 469px;
+                                width: 100%;
+                                padding: 32px 20px 32px 20px;
+                                & .container-3__content{
+                                    & .results{
+                                        margin: 0 0 16px 0;
+                                        font-family: 'Inter-Medium';
+                                        font-size: 15px;
+                                        color: rgb(43, 43, 43);
+                                        display: block;
+                                    }
+                                    & .calendar__medal-winners{
+                                        margin: 0 0 16px 0;
+                                        display: flex;
+                                        & .calendar__medal{
+                                            margin: 0 16px 0 0;
+                                            width: 40px;
+                                            height: 40px;
+                                            display: block;
+                                            & img{
+                                                min-width: 40px;
+                                                object-fit: cover;
+                                                width: 100%;
+                                                height: 100%;
+                                                display: block;
+                                            }
+                                        }
+                                        & .calendar__winners{
+                                            & .medal__place{
+                                                font-family: 'Inter-Medium';
+                                                font-size: 15px;
+                                                color: rgb(43, 43, 43);
+                                                display: block;
+                                                margin: 0 0 3px 0;
+                                            }
+                                            & .medal-name__description{
+                                                display: flex;
+                                                & .medal-name{
+                                                    display: block;
+                                                    & .medal-name__link{
+                                                        font-family: 'Inter-Medium';
+                                                        font-size: 15px;
+                                                        color: #02489F;
+                                                        text-decoration: none;
+                                                        transition: 0.3s ease 0s;
+                                                        &:hover{
+                                                        color: rgba(2, 72, 159, 0.7);
+                                                        }
+                                                    }
+                                                }
+                                                & .medal-description{
+                                                    font-family: 'Inter-Medium';
+                                                    font-size: 15px;
+                                                    color: rgb(43, 43, 43);
+                                                    text-decoration: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .main__button{
+        border: none;
+        background-color: #02489F;
+        transition: all 0.3s ease 0s;
+        &:hover img{
+            position: relative;
+            left: 8px;
+        }
+        & img{
+            height: 14px;
+            width: 15px;
+        }
+    }
+}
+
+
+@media(max-width: 1300px){
+    .competition-calendar{
+        background-color: #ffffff;
+        & .calendar-right__top{
+            display: none;
+        }
+        & .calendar-left__bottom{
+            display: none;           
+        }
+        & .calendar-back{
+            & .calendar__selects{
+                display: flex;
+                & .select{
+                   
+                    & .select__header{
+                        
+                        & .select__current{
+                            
+                        }
+                    }
+                    & .select__icon{
+                        
+                        & img{
+                            
+                        }
+                    }
+                    & .select__body{
+                        
+                        & .select__item{
+                            
+                        }
+                    }
+                }
+            }
+            .select.active .select__body{
+                
+            }
+            & .calendar-heading{
+                font-size: 40px;
+            }
+            & .calendar__content{
+                & .calendar-years{
+                    display: none;
+                    & .calendar-years__btn{
+                        
+                    }
+                }
+                & .calendar-months{
+                    display: none;
+                    & .calendar-months__btn{
+                        
+                    }
+                }
+                & .calendar__mein{
+                    background: none;
+                    & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .calendar-event{
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                border: none;
+                                margin: 0 0 72px 0;
+                                &:last-child{
+                                    border: none;
+                                }
+                                & .calendar-event__container-1{
+                                    align-items: flex-start;
+                                    border: none;
+                                    grid-column: 1/2;
+                                    grid-row: 1/2;
+                                    padding: 0 0 0 0;
+                                    margin: 0 0 32px 0;
+                                    justify-content: flex-start;
+                                    & .kind__image{
+                                        top: 0;
+                                        bottom: 0;
+                                        margin: 0;
+                                        margin: 0 24px 0 0;
+                                        position: relative;
+                                        right: 0;
+                                        & .circle__icon{
+                                            
+                                        }
+                                    }
+                                    & .calendar-kind__sport-date{
+                                        align-items: flex-start;
+                                        & h2{
+                                            
+                                        }
+                                        & .calendar-kind__sport{
+                                            text-transform: uppercase;
+                                        }
+                                    }
+                                }
+                                & .calendar-event__container-2{
+                                    justify-content: flex-start;
+                                    padding: 0 0 0 0;
+                                    grid-column: 1/2;
+                                    grid-row: 2/3;
+                                    & .container-2__content{
+                                        
+                                        & .calendar-event__place{
+                                            
+                                        }
+                                        & .calendar-event__tournament{
+                                            
+                                        }
+                                        & .calendar-event__participants{
+                                            
+                                        }
+                                        & .participants-list{
+                                            
+                                            & .participant{
+                                            
+                                            }
+                                        }
+                                    }
+                                }
+                                & .calendar-event__container-3{
+                                    padding: 0 0 0 0;
+                                    grid-column: 2/3;
+                                    grid-row: 1/3;
+                                    margin: 0 0 0 24px;
+                                    & .container-3__content{
+                                        padding: 0 24px 0 0;
+                                        & .results{
+                                            
+                                        }
+                                        & .calendar__medal-winners{
+                                            
+                                            & .calendar__medal{
+                                                
+                                                & img{
+                                                    
+                                                }
+                                            }
+                                            & .calendar__winners{
+                                                & .medal__place{
+                                                    
+                                                }
+                                                & .medal-name__description{
+                                                    
+                                                    & .medal-name{
+                                                        
+                                                    }
+                                                    & .medal-description{
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        & .main__button{
+            
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    & .partnership{
+        & .partnership__content{
+            & .partnership__product{
+                    
+                & .swiper-container-three{
+                    & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .partnership__slide-content{
+                                padding: 0 0 20px 40px;
+                                & .partnership__tags{
+                                    & .partnership__tag-container{
+                                        
+                                        & .partnership__tag{
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                            & .partnership-link{
+                                
+                                
+                                & img{
+                                   
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .projects{
+        
+        & .projects__content-back{
+            
+            & .projects__heading{
+                font-size: 40px;
+            }
+            & .projects__content{
+                grid-template-columns: repeat(3, 1fr);
+                & :nth-child(5){
+                    display: none;
+                }
+                & :nth-child(6){
+                    display: none;
+                }
+                & .projects__double-card{
+                    
+                    &:nth-child(1){
+                        
+                    }
+                    &:nth-child(2){
+                        grid-column: 1/3;
+                        grid-row: 2/3;
+                        margin: 0;
+                    }
+                    & .double-card__image{
+                       
+                        & img{
+                        
+                        }
+                    }
+                    & .double-card__content{
+                        
+                        & .double-card__text{
+                            & h1{
+                                
+                            }
+                            & hr{
+                                
+                            }
+                            & .card__content-text{
+                                
+                            }
+                            & .card__content-more{
+                                
+                            }
+                        }
+                        & .card__content-tags{
+                            
+                            & .card__content-tag{
+                                
+                            }
+                        }
+                    }
+                }
+                & .projects__single-card{
+                    &:nth-child(1){
+                        grid-column: 3/4;
+                        grid-row: 1/2;
+                        }
+                    }
+                    & .single-card__image{
+                        
+                        & img{
+                            
+                        }
+                    }
+                    & .single-card__text{
+                        
+                        & h2{
+                            
+                        }
+                        & .single-card-tags{
+                            
+                            & .single-card-tag{
+                                
+                            }
+                        }
+                    }
+                }
+                & .projects__vertical-card{
+                    &:nth-child(1){
+                        grid-row: 2/3;
+                        grid-column: 3/4;
+                    }
+                    & .vertical-card__image{
+                        
+                        & img{
+                            
+                        }
+                    }
+                    & .vertical-card__text{
+                        & .card__text-content{
+                            & h2{
+                                
+                            }
+                            & hr{
+                                
+                            }
+                            & .single__content-text{
+                                
+                            }
+                            & .single__content-more{
+                                
+                            }
+                        }
+                        & .vertical-card-tags{
+                            
+                            & .vertical-card-tag{
+                                
+                            }
+                        }
+                    }
+                }
+            & .main__button{
+                
+            }
+        }
+}
+
+
+.sports-objects{
+        
+    & .sports-objects__content-back{
+        
+        & .sports-objects__link{
+            
+            & .sports-objects__heading{
+                font-size: 40px;
+            }
+            & .sports-objects__map{
+                
+                & .sports-objects__arrow{
+                   
+                }
+            }
+        }
+        & .sports-objects__content{
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            & .sports-objects__place{
+                &:last-child{
+                    display: none;
+                }
+                & .sports-objects__image{
+                    
+                    & img{
+                        
+                    }
+                }
+                & .sports-object__place-map{
+                    
+                    & .sports-object__place{
+                        
+                    }
+                    & .sports-object__map{
+                        
+                    }
+                }
+            }
+        }
+    }
+    & .main__button{
+       
+    }
+}
+}
+@media (max-width: 700px){
+    .competition-calendar{
+        & .calendar-back{
+            padding: 72px 10px 72px 10px;
+            & .calendar__selects{
+                margin: 0 0 32px 0;
+                & .select{
+                    margin:  0 20px 0 0;
+                   &:last-child{
+                       margin: 0;
+                   }
+                    & .select__header{
+                        
+                        & .select__current{
+                            
+                        }
+                    }
+                    & .select__icon{
+                        
+                        & img{
+                            
+                        }
+                    }
+                    & .select__body{
+                        
+                        & .select__item{
+                            
+                        }
+                    }
+                }
+            }
+            & .calendar-buttons__slider{
+                display: block;
+                display: flex;
+                margin: 0 0 32px 0;
+                & .swiper-button-prev-calend{
+                    margin: 0 16px 0 0;
+                    width: 32px;
+                    height: 32px;
+                    fill: rgb(2, 72, 159);
+                    transition: 0.3s ease 0s;
+                    &:hover{
+                        fill: rgba(2, 72, 159, 0.7);
+                    }
+                }
+                & .swiper-button-next-calend{
+                    width: 32px;
+                    height: 32px;
+                    transition: 0.3s ease 0s;
+                    fill: rgb(2, 72, 159);
+                    &:hover{
+                        fill: rgba(2, 72, 159, 0.7);
+                    }
+                }
+                & .swiper-button-disabled{
+                    fill: rgba(2, 72, 159, 0.3);
+                }
+            }
+            .select.active .select__body{
+                
+            }
+            & .calendar-heading{
+                font-size: 30px;
+                margin: 0 0 32px 0;
+            }
+            & .calendar__content{
+                & .calendar-years{
+                    
+                    & .calendar-years__btn{
+                        
+                    }
+                }
+                & .calendar-months{
+                    
+                    & .calendar-months__btn{
+                        
+                    }
+                }
+                & .calendar__mein{
+                    margin: 0;
+                    & .swiper-wrapper{
+                        flex-direction: row;
+                        & .swiper-slide{
+                            & .calendar-event{
+                                grid-template-columns: repeat(1, 1fr);
+                                margin: 0;
+                                &:last-child{
+                                   
+                                }
+                                & .calendar-event__container-1{
+                                    
+                                    & .kind__image{
+                                        
+                                        & .circle__icon{
+                                            
+                                        }
+                                    }
+                                    & .calendar-kind__sport-date{
+                                        
+                                        & h2{
+                                            font-size: 17px;
+                                        }
+                                        & .calendar-kind__sport{
+                                            
+                                        }
+                                    }
+                                }
+                                & .calendar-event__container-2{
+                                    
+                                    & .container-2__content{
+                                        
+                                        & .calendar-event__place{
+                                            
+                                        }
+                                        & .calendar-event__tournament{
+                                            font-size: 17px;
+                                        }
+                                        & .calendar-event__participants{
+                                            
+                                        }
+                                        & .participants-list{
+                                            
+                                            & .participant{
+                                            
+                                            }
+                                        }
+                                    }
+                                }
+                                & .calendar-event__container-3{
+                                    margin: 0;
+                                    grid-column: 1/2;
+                                    grid-row: 3/4;
+                                    & .container-3__content{
+                                        padding: 0;
+                                        & .results{
+                                            margin: 0 0 32px 0;
+                                        }
+                                        & .calendar__medal-winners{
+                                            
+                                            & .calendar__medal{
+                                                
+                                                & img{
+                                                    
+                                                }
+                                            }
+                                            & .calendar__winners{
+                                                & .medal__place{
+                                                    
+                                                }
+                                                & .medal-name__description{
+                                                    
+                                                    & .medal-name{
+                                                        
+                                                    }
+                                                    & .medal-description{
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        
+                                    }
+                                    
+                                }
+                                
+                                
+                            }
+                            
+                        }
+                    
+                    }
+                    
+                }
+            
+            }
+            
+        }
+        & .main__button{
+            display: none;
+        }
+    }
+}
+/*media*/

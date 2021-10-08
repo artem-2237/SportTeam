@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .sprites{
+      display: none;
+  }
+
+.sportsman{
+    flex: 1 1 auto;
+    overflow: hidden;
+    width: 100%;
+    & .sportsman__content{
+        margin: 0 auto 0 auto;
+        max-width: 1536px;
+        width: 100%;
+        padding: 104px 24px 104px 24px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 1fr;
+        column-gap: 24px;
+        & .sportsman__content-name{
+            font-family: 'Magistral-Bold';
+            font-size: 63px;
+            color: #2B2B2B;
+            display: block;
+            margin: 52px 0 32px 0;
+            max-width: 640px;
+            line-height: 120%;
+            letter-spacing: 0.04em;
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+        & .sportsman__image{
+            grid-row: 1/3;
+            grid-column: 1/2;
+            max-width: 597px;
+            width: 100%;
+                display: block;
+                position: relative;
+                height: fit-content;
+            & .image-container{
+                width: 100%;
+                overflow: hidden;
+                display: block;
+                & .image{
+                    display: block;
+                    width: 100%;
+                    object-fit: cover;
+                    transition: 0.5s ease 0s;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
+                }
+            }
+            & .sportsman__left-top{
+                position: absolute;
+                height: 100%;
+                right: 24px;
+                z-index: -1;
+                top: -24px;
+            }
+        }
+        & .sportsman__info{
+            display: flex;
+            flex-direction: column;
+            grid-row: 2/3;
+            grid-column: 2/3;
+            & .kind__sport-logo{
+                display: flex;
+                align-items: center;
+                margin: 0 0 32px 0;
+                & .sport-logo{
+                    width: 104px;
+                    height: 104px;
+                    background-image: url(../img/main/calendar__circle.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    & img{
+
+                    }
+                }
+                & p{
+                    font-family: 'Inter-Bold';
+                    font-size: 25px;
+                    color: #02489F;
+                    display: block;
+                    margin: 0 0 0 24px;
+                }
+            }
+            & .sportsman-descr{
+                margin: 0 0 32px 0;
+                display: block;
+                font-family: 'Inter-Medium';
+                font-size: 15px;
+                color: #2B2B2B;
+                line-height: 140%;
+            }
+            & .birth__date-data{
+                margin: 0 0 32px 0;
+                & .birth-date{
+                    display: block;
+                    font-family: 'Inter-Regular';
+                    font-size: 15px;
+                    color: #2B2B2B;
+                    margin: 0 0 4px 0;
+                }
+                & .birth-data{
+                    font-family: 'Inter-Bold';
+                    font-size: 20px;
+                    color: #2B2B2B;
+                    display: block;
+                }
+            }
+            & .birth__place-data{
+                & .birth-place{
+                    display: block;
+                    font-family: 'Inter-Regular';
+                    font-size: 15px;
+                    color: #2B2B2B;
+                }
+                & .birth-data{
+                    font-family: 'Inter-Bold';
+                    font-size: 20px;
+                    color: #2B2B2B;
+                    display: block;
+                    margin: 0 0 4px 0;
+                }
+            }
+        }
+    }
+    & .sportsman__achievements-back{
+        background: linear-gradient(99.31deg, #02489F -26.39%, #1AB8EC 114.97%);
+        width: 100%;
+        & .sportsman__achievements-content{
+            margin: 0 auto 0 auto;
+        max-width: 1536px;
+        width: 100%;
+        padding: 104px 24px 156px 24px;
+            & .achievements-heading__buttons{
+                display: flex;
+                justify-content: space-between;
+                margin: 0 0 56px 0;
+                align-items: center;
+                & .achievements-heading{
+                    font-family: 'Magistral-Bold';
+                    font-size: 63px;
+                    color: #ffffff;
+                    display: block;
+                }
+                & .achievements-buttons{
+                    display: flex;
+                    align-items: center;
+                    & .swiper-button-prev-achievements{
+                        width: 64px;
+                        height: 64px;
+                        fill: #ffffff;
+                        cursor: pointer;
+                        transition: all 0.3s ease 0s;
+                        &:hover{
+                            fill: rgba(255, 255, 255, 0.7);
+                        }
+                    }
+                    & .swiper-button-next-achievements{
+                        width: 64px;
+                        height: 64px;
+                        fill: #ffffff;
+                        cursor: pointer;
+                        transition: all 0.3s ease 0s;
+                        margin: 0 0 0 24px;
+                        &:hover{
+                            fill: rgba(255, 255, 255, 0.7);
+                        }
+                    }
+                    & .swiper-button-disabled{
+                        fill: rgba(255, 255, 255, 0.5);
+                    }
+                }
+            }
+            & .achievements-slider{
+                & .swiper-wrapper{
+                    & .swiper-slide{
+                        height: auto;
+                        max-width: 342px;
+                        & .swiper-slide__content{
+
+                            height: 100% !important;
+                            max-width: 342px;
+                            width: 100%;
+                            background-color: #ffffff;
+                            padding: 24px;
+                            & .achievements__slide-place{
+                                color: rgba(43, 43, 43, 0.5);
+                                font-family: 'Inter-Medium';
+                                font-size: 15px;
+                                display: block;
+                                margin:  0 0 8px 0;
+                            }
+                            & h2{
+                                color: rgb(43, 43, 43);
+                                font-family: 'Inter-Medium';
+                                font-size: 20px;
+                                display: block;
+                                margin:  0 0 16px 0;
+                            }
+                            & .achievements__medal-descr{
+                                display: flex;
+                                & img{
+                                    width: 40px;
+                                    height: 40px;
+                                    margin: 0 16px 0 0;
+                                }
+                                & .medal-descr{
+                                    & .medal__place{
+                                        color: rgb(43, 43, 43);
+                                        font-family: 'Inter-Medium';
+                                        font-size: 15px;
+                                        display: block;
+                                        line-height: 140%;
+                                    }
+                                    & .medal__place-descr{
+                                        color: rgb(43, 43, 43);
+                                        font-family: 'Inter-Medium';
+                                        font-size: 15px;
+                                        display: block;
+                                        line-height: 140%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1000px){
+    .sportsman{
+        & .sportsman__content{
+            & .sportsman__content-name{
+                grid-row: 1/2;
+                grid-column: 1/3;
+                font-size: 40px;
+                margin: 0 0 56px 0;
+            }
+            & .sportsman__image{
+                grid-row: 2/3;
+                grid-column: 1/2;
+                & .image-container{
+                    & .image{
+                                &:hover{
+                                }
+                    }
+                }
+                & .sportsman__left-top{
+                }
+            }
+            & .sportsman__info{
+                grid-row: 2/3;
+                grid-column: 2/3;
+                & .kind__sport-logo{
+                    & .sport-logo{
+                        & img{
+    
+                        }
+                    }
+                    & p{
+                    }
+                }
+                & .sportsman-descr{
+                }
+                & .birth__date-data{
+                    & .birth-date{
+                    }
+                    & .birth-data{
+                    }
+                }
+                & .birth__place-data{
+                    & .birth-place{
+                    }
+                    & .birth-data{
+                    }
+                }
+            }
+        }
+        & .sportsman__achievements-back{
+            & .sportsman__achievements-content{
+                padding: 104px 24px 104px 24px;
+                & .achievements-heading__buttons{
+                    & .achievements-heading{
+                        font-size: 40px;
+                    }
+                    & .achievements-buttons{
+                        & .swiper-button-prev-achievements{
+                            &:hover{
+                            }
+                        }
+                        & .swiper-button-next-achievements{
+                            &:hover{
+                            }
+                        }
+                        & .swiper-button-disabled{
+                        }
+                    }
+                }
+                & .achievements-slider{
+                    & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .swiper-slide__content{
+                                & .achievements__slide-place{
+                                }
+                                & h2{
+                                }
+                                & .achievements__medal-descr{
+                                    & img{
+                                    }
+                                    & .medal-descr{
+                                        & .medal__place{
+                                        }
+                                        & .medal__place-descr{
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media (max-width: 700px){
+    .sportsman{
+        & .sportsman__content{
+            padding: 72px 10px 72px 10px;
+            grid-template-columns: repeat(1, 1fr);
+            & .sportsman__content-name{
+                grid-row: 1/2;
+                grid-column: 1/2;
+                font-size: 17px;
+                margin: 0 0 32px 0;
+            }
+            & .sportsman__image{
+                grid-row: 2/3;
+                grid-column: 1/2;
+                margin: 0 0 32px 0;
+                & .image-container{
+                    & .image{
+                                &:hover{
+                                }
+                    }
+                }
+                & .sportsman__left-top{
+                    left: 16px;
+                    top: -16px;
+                    right: 0;
+                }
+            }
+            & .sportsman__info{
+                grid-row: 3/4;
+                grid-column: 1/2;
+                & .kind__sport-logo{
+                    margin: 0 0 32px 0;
+                    & .sport-logo{
+                        width: 80px;
+                    height: 80px;
+                        & img{
+                            width: 38px;
+                            height: 32px;
+                        }
+                    }
+                    & p{
+                        margin: 0 0 0 16px;
+                    }
+                }
+                & .sportsman-descr{
+                }
+                & .birth__date-data{
+                    & .birth-date{
+                    }
+                    & .birth-data{
+                        font-size: 17px;
+                    }
+                }
+                & .birth__place-data{
+                    & .birth-place{
+                    }
+                    & .birth-data{
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+        & .sportsman__achievements-back{
+            & .sportsman__achievements-content{
+                padding: 72px 10px 72px 10px;
+                & .achievements-heading__buttons{
+                    flex-wrap: wrap;
+                    & .achievements-heading{
+                        font-size: 30px;
+                        margin: 0 16px 0 0;
+                    }
+                    & .achievements-buttons{
+                        & .swiper-button-prev-achievements{
+                            width: 32px;
+                            height: 32px;
+
+                            &:hover{
+                            }
+                        }
+                        & .swiper-button-next-achievements{
+                            width: 32px;
+                            height: 32px;
+                            margin: 0 0 0 16px;
+                            &:hover{
+                            }
+                        }
+                        & .swiper-button-disabled{
+                        }
+                    }
+                }
+                & .achievements-slider{
+                    & .swiper-wrapper{
+                        & .swiper-slide{
+                            & .swiper-slide__content{
+                                & .achievements__slide-place{
+                                }
+                                & h2{
+                                }
+                                & .achievements__medal-descr{
+                                    & img{
+                                    }
+                                    & .medal-descr{
+                                        & .medal__place{
+                                        }
+                                        & .medal__place-descr{
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
