@@ -1,0 +1,703 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+/*general*/
+.sprites {
+  display: none;
+}
+
+.main__button {
+  font-family: 'Magistral-Medium';
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  padding: 24px 0 23px 0;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin: 0 auto 0 auto;
+  cursor: pointer;
+}
+
+.main__button img {
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 16px;
+}
+
+/*general*/
+.competition-calendar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  position: relative;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.competition-calendar .calendar-right__top {
+  max-width: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 321px;
+  z-index: 1;
+}
+
+.competition-calendar .calendar-left__bottom {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 408px;
+  left: 46px;
+  bottom: 187px;
+  position: absolute;
+  z-index: 1;
+}
+
+.competition-calendar .calendar-back {
+  position: relative;
+  max-width: 1536px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  z-index: 1;
+  padding: 104px 24px 104px 24px;
+}
+
+.competition-calendar .calendar-back .calendar__selects {
+  margin: 0 0 56px 0;
+  display: none;
+}
+
+.competition-calendar .calendar-back .calendar__selects .select {
+  margin: 0 24px 0 0;
+  max-width: 213px;
+  width: 100%;
+  position: relative;
+}
+
+.competition-calendar .calendar-back .calendar__selects .select .select__header {
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px 20px 13px 20px;
+  border: 1px solid #2B2B2B;
+  border-radius: 50px;
+}
+
+.competition-calendar .calendar-back .calendar__selects .select .select__header .select__current {
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+}
+
+.competition-calendar .calendar-back .calendar__selects .select .select__icon {
+  margin: 0 0 0 auto;
+  width: 8px;
+  height: 6px;
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__selects .select .select__icon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__selects .select .select__body {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  border: 1px solid #2B2B2B;
+  border-top: 0;
+}
+
+.competition-calendar .calendar-back .calendar__selects .select .select__body .select__item {
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+}
+
+.competition-calendar .calendar-back .calendar-buttons__slider {
+  display: none;
+}
+
+.competition-calendar .calendar-back .select.active .select__body {
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar-heading {
+  font-family: 'Magistral-Bold';
+  color: #2B2B2B;
+  font-size: 63px;
+  margin: 0 0 56px 0;
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar-years {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 32px 0;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar-years .calendar-years__btn {
+  cursor: pointer;
+  max-width: 117px;
+  width: 100%;
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.1);
+  border-radius: 50px;
+  background-color: rgba(43, 43, 43, 0);
+  padding: 14px 0 13px 0;
+  margin: 0 12px 0 12px;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar-years .calendar-years__btn:hover {
+  border: 1px solid #2b2b2b;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar-months {
+  border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+  padding: 0 0 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 32px 0;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar-months .calendar-months__btn {
+  cursor: pointer;
+  text-align: center;
+  background-color: rgba(43, 43, 43, 0);
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+  border: none;
+  max-width: 88px;
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein {
+  background-color: #ffffff;
+  max-width: 1488px;
+  width: 100%;
+  margin: 0 0 72px 0;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 {
+  padding: 32px 20px 32px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 426px;
+  width: 100%;
+  position: relative;
+  border-right: 1px solid #02489F;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .kind__image {
+  min-width: 56px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/main/calendar__circle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  right: -28px;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date h2 {
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  color: #2B2B2B;
+  display: block;
+  margin: 0 0 8px 0;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date .calendar-kind__sport {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: #2B2B2B;
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 {
+  padding: 32px 20px 32px 48px;
+  max-width: 593px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content {
+  max-width: 440px;
+  width: 100%;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__place {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: rgba(43, 43, 43, 0.5);
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__tournament {
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  color: #2b2b2b;
+  display: block;
+  margin: 16px 0 16px 0;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__participants {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: rgba(43, 43, 43, 0.5);
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .participants-list {
+  color: #02489F;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .participants-list .participant {
+  color: #02489F;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .participants-list .participant:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+  max-width: 469px;
+  width: 100%;
+  padding: 32px 20px 32px 20px;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .results {
+  margin: 0 0 16px 0;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #2b2b2b;
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners {
+  margin: 0 0 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__medal {
+  margin: 0 16px 0 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__medal img {
+  min-width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal__place {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #2b2b2b;
+  display: block;
+  margin: 0 0 3px 0;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-name {
+  display: block;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-name .medal-name__link {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #02489F;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-name .medal-name__link:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-description {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.competition-calendar .main__button {
+  border: none;
+  background-color: #02489F;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.competition-calendar .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+.competition-calendar .main__button img {
+  height: 14px;
+  width: 15px;
+}
+
+@media (max-width: 1300px) {
+  .competition-calendar {
+    background-color: #ffffff;
+  }
+  .competition-calendar .calendar-right__top {
+    display: none;
+  }
+  .competition-calendar .calendar-left__bottom {
+    display: none;
+  }
+  .competition-calendar .calendar-back .calendar__selects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .competition-calendar .calendar-back .calendar-heading {
+    font-size: 40px;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar-years {
+    display: none;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar-months {
+    display: none;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein {
+    background: none;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    border: none;
+    margin: 0 0 72px 0;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event:last-child {
+    border: none;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border: none;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    padding: 0 0 0 0;
+    margin: 0 0 32px 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .kind__image {
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    margin: 0 24px 0 0;
+    position: relative;
+    right: 0;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date .calendar-kind__sport {
+    text-transform: uppercase;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0 0 0 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+    padding: 0 0 0 0;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    margin: 0 0 0 24px;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content {
+    padding: 0 24px 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .partnership .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content {
+    padding: 0 0 20px 40px;
+  }
+  .projects .projects__content-back .projects__heading {
+    font-size: 40px;
+  }
+  .projects .projects__content-back .projects__content {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .projects__content-back .projects__content :nth-child(5) {
+    display: none;
+  }
+  .projects .projects__content-back .projects__content :nth-child(6) {
+    display: none;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    margin: 0;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card:nth-child(1) {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__vertical-card:nth-child(1) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+    font-size: 40px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .competition-calendar .calendar-back {
+    padding: 72px 10px 72px 10px;
+  }
+  .competition-calendar .calendar-back .calendar__selects {
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .calendar-back .calendar__selects .select {
+    margin: 0 20px 0 0;
+  }
+  .competition-calendar .calendar-back .calendar__selects .select:last-child {
+    margin: 0;
+  }
+  .competition-calendar .calendar-back .calendar-buttons__slider {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .calendar-back .calendar-buttons__slider .swiper-button-prev-calend {
+    margin: 0 16px 0 0;
+    width: 32px;
+    height: 32px;
+    fill: #02489f;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+  }
+  .competition-calendar .calendar-back .calendar-buttons__slider .swiper-button-prev-calend:hover {
+    fill: rgba(2, 72, 159, 0.7);
+  }
+  .competition-calendar .calendar-back .calendar-buttons__slider .swiper-button-next-calend {
+    width: 32px;
+    height: 32px;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+    fill: #02489f;
+  }
+  .competition-calendar .calendar-back .calendar-buttons__slider .swiper-button-next-calend:hover {
+    fill: rgba(2, 72, 159, 0.7);
+  }
+  .competition-calendar .calendar-back .calendar-buttons__slider .swiper-button-disabled {
+    fill: rgba(2, 72, 159, 0.3);
+  }
+  .competition-calendar .calendar-back .calendar-heading {
+    font-size: 30px;
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein {
+    margin: 0;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date h2 {
+    font-size: 17px;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__tournament {
+    font-size: 17px;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+    margin: 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content {
+    padding: 0;
+  }
+  .competition-calendar .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .results {
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .main__button {
+    display: none;
+  }
+}
+
+/*media*/

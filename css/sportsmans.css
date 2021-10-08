@@ -1,0 +1,360 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sprites {
+  display: none;
+}
+
+.sportsmans {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.sportsmans .sportsmans__content {
+  max-width: 1536px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 104px 24px 156px 24px;
+}
+
+.sportsmans .sportsmans__content .sportsmans-heading {
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  color: #2B2B2B;
+  display: block;
+  margin: 0 0 16px 0;
+}
+
+.sportsmans .sportsmans__content .sportsmans__select-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 56px 0;
+}
+
+.sportsmans .sportsmans__content .sportsmans__select-button .select-sportsmans {
+  margin: 0 24px 0 0;
+  max-width: 215px;
+  width: 100%;
+  position: relative;
+}
+
+.sportsmans .sportsmans__content .sportsmans__select-button .select-sportsmans .select__header {
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px 20px 13px 20px;
+  border: 1px solid #2B2B2B;
+  border-radius: 50px;
+}
+
+.sportsmans .sportsmans__content .sportsmans__select-button .select-sportsmans .select__header .select__current {
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+}
+
+.sportsmans .sportsmans__content .sportsmans__select-button .select-sportsmans .select__header .select__icon {
+  margin: 0 0 0 auto;
+  width: 8px;
+  height: 6px;
+  display: block;
+}
+
+.sportsmans .sportsmans__content .sportsmans__select-button .select-sportsmans .select__header .select__icon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.sportsmans .sportsmans__content .sportsmans__select-button .select-button {
+  background-color: rgba(43, 43, 43, 0.1);
+  font-family: 'Magistral-Medium';
+  color: #ffffff;
+  font-size: 16px;
+  max-width: 215px;
+  width: 100%;
+  display: block;
+  padding: 14px 10px 14px 10px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.sportsmans .sportsmans__content .select__mobile {
+  margin: 0 0 34px 0;
+  display: none;
+}
+
+.sportsmans .sportsmans__content .select__mobile .select-sportsmans {
+  cursor: pointer;
+  max-width: 107px;
+  width: 100%;
+}
+
+.sportsmans .sportsmans__content .select__mobile .select-sportsmans .select__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sportsmans .sportsmans__content .select__mobile .select-sportsmans .select__header .select__union {
+  width: 17px;
+  height: 17px;
+  margin: 0 8px 0 0;
+}
+
+.sportsmans .sportsmans__content .select__mobile .select-sportsmans .select__header .select__union img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sportsmans .sportsmans__content .select__mobile .select-sportsmans .select__header .select__current {
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+}
+
+.sportsmans .sportsmans__content .select__mobile .select-sportsmans .select__header .select__icon {
+  margin: 0 0 0 8px;
+  width: 8px;
+  height: 6px;
+  display: block;
+}
+
+.sportsmans .sportsmans__content .select__mobile .select-sportsmans .select__header .select__icon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main {
+  margin: 0 0 104px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  row-gap: 72px;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 76px 0 0 0;
+  width: 100%;
+  max-width: 255px;
+  text-decoration: none;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content:hover .sportsman-name {
+  color: #02489F;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content .kind-sport__image {
+  width: 104px;
+  height: 104px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content .kind-sport__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content .sportsman-name {
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+  font-family: 'Inter-Medium';
+  color: #2B2B2B;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  margin: 0 0 8px 0;
+}
+
+.sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content .sportsman-descr {
+  font-family: 'Inter-Medium';
+  color: #02489F;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-button-prev__sportsmans-main {
+  width: 14px;
+  height: 12px;
+  fill: #2b2b2b;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 0 16px 0 0;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-button-prev__sportsmans-main:hover {
+  fill: rgba(43, 43, 43, 0.7);
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  color: #2B2B2B;
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  color: #2B2B2B;
+  opacity: 1;
+  margin: 0 8px 0 8px;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet:hover {
+  background-color: rgba(2, 72, 159, 0.1);
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet-active {
+  background-color: #02489F;
+  color: #ffffff;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet-active:hover {
+  background-color: #02489F;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-button-next__sportsmans-main {
+  width: 14px;
+  height: 12px;
+  fill: #2b2b2b;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 0 0 0 16px;
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-button-next__sportsmans-main:hover {
+  fill: rgba(43, 43, 43, 0.7);
+}
+
+.sportsmans .sportsmans__content .sportsmans-page__main-bullets .swiper-button-disabled {
+  fill: rgba(43, 43, 43, 0.3);
+}
+
+@media (max-width: 1000px) {
+  .sportsmans .sportsmans__content {
+    padding: 104px 24px 104px 24px;
+  }
+  .sportsmans .sportsmans__content .sportsmans-heading {
+    font-size: 40px;
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (1fr)[5];
+        grid-template-rows: repeat(5, 1fr);
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content:nth-last-child(1) {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .sportsmans .sportsmans__content {
+    padding: 72px 10px 72px 10px;
+  }
+  .sportsmans .sportsmans__content .sportsmans-heading {
+    font-size: 30px;
+  }
+  .sportsmans .sportsmans__content .sportsmans__select-button {
+    display: none;
+  }
+  .sportsmans .sportsmans__content .select__mobile {
+    display: block;
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main {
+    margin: 0 0 72px 0;
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (1fr)[12];
+        grid-template-rows: repeat(12, 1fr);
+    -webkit-column-gap: 0;
+            column-gap: 0;
+    row-gap: 32px;
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content {
+    padding: 56px 0 0 0;
+    max-width: 320px;
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content:nth-last-child(-n+4) {
+    display: none;
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content .kind-sport__image {
+    width: 80px;
+    height: 80px;
+  }
+  .sportsmans .sportsmans__content .swiper-container__sportsmans-main .swiper-wrapper .swiper-slide .slide-content__container .slide-content .sportsman-name {
+    font-size: 17px;
+  }
+}

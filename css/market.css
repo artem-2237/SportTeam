@@ -1,0 +1,955 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sprites {
+  display: none;
+}
+
+/*section8*/
+
+.swiper-button-next__sportsmans-main {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-button-prev__sportsmans-main {
+    width: 14px;
+    height: 12px;
+    fill: #2b2b2b;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 0 16px 0 0;
+}
+
+.sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    color: #2B2B2B;
+    font-family: 'Inter-Medium';
+    font-size: 20px;
+}
+
+.sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-button-next__sportsmans-main {
+    width: 14px;
+    height: 12px;
+    fill: #2b2b2b;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 0 0 0 16px;
+}
+
+/*section9*/
+.magazine {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.magazine .magazine-back {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.magazine .magazine-back .section__8-left-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 265px;
+  height: 369px;
+  z-index: -1;
+}
+
+.magazine .magazine-back .section__8-right {
+  position: absolute;
+  right: 0;
+  top: 210px;
+  width: 534px;
+  height: 420px;
+  z-index: -1;
+}
+
+.magazine .magazine-back .magazine__content-back {
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  margin: 0 auto 0 auto;
+}
+
+.magazine .magazine-back .magazine__content-back h1 {
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  z-index: 2;
+  margin: 0 0 60px 0;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 0 0 75px 0;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product {
+  max-width: 342px;
+  width: 100%;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__image {
+  overflow: hidden;
+  max-width: 342px;
+  width: 100%;
+  display: block;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__image img {
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__type {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  display: block;
+  color: gray;
+  margin: 8px 0 4px 0;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__name {
+  cursor: pointer;
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__name:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__price {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+}
+
+.magazine .magazine-back .main__button {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.magazine .magazine-back .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+.main__button {
+  font-family: 'Magistral-Medium';
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  padding: 24px 0 23px 0;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin: 0 auto 0 auto;
+  cursor: pointer;
+}
+
+.main__button img {
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 16px;
+}
+
+/*section9*/
+/*section10*/
+
+/*section10*/
+/*media*/
+@media (max-width: 1300px) {
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event:last-child {
+    border: none;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border: none;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    padding: 0 0 0 0;
+    margin: 0 0 32px 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .kind__image {
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    margin: 0 24px 0 0;
+    position: relative;
+    right: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date .calendar-kind__sport {
+    text-transform: uppercase;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0 0 0 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+    padding: 0 0 0 0;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    margin: 0 0 0 24px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content {
+    padding: 0 24px 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content {
+    padding: 0 0 20px 40px;
+  }
+  .projects .projects__content-back .projects__heading {
+    font-size: 40px;
+  }
+  .projects .projects__content-back .projects__content {
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .projects__content-back .projects__content :nth-child(5) {
+    display: none;
+  }
+  .projects .projects__content-back .projects__content :nth-child(6) {
+    display: none;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card:nth-child(1) {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__vertical-card:nth-child(1) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+    font-size: 40px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slider-one {
+    max-height: 580px;
+  }
+  .slider-one .slider-one__content {
+    max-height: 580px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info h1::before {
+    font-size: 40px;
+    max-width: 470px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector {
+    max-width: 153px !important;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics__text {
+    margin: 35px 0 0 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics-heading {
+    top: 35px;
+    font-size: 64px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3 {
+    max-width: 78.5px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5 {
+    max-width: 129px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5::before {
+    display: block;
+  }
+  .media .media__content-back .media-heading__buttons .media-heading {
+    font-size: 40px;
+  }
+  .projects .projects__content-back .projects__content {
+    gap: 24px;
+  }
+  .magazine .magazine-back .section__8-left-top {
+    width: 160px;
+    height: 290px;
+  }
+  .magazine .magazine-back .section__8-right {
+    width: 460px;
+    height: 367px;
+    right: -18%;
+    top: 184px;
+  }
+  .magazine .magazine-back .magazine__content-back h1 {
+    font-size: 40px;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content {
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    gap: 24px !important;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product:nth-last-child(1) {
+    display: none;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__price {
+    font-size: 15px;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons .partnership-heading {
+    font-size: 40px;
+  }
+  .news .news-back .news__left-top {
+    width: 125%;
+    height: 380px;
+    top: 184px;
+    left: -30%;
+  }
+  .news .news-back .news__right-bottom {
+    width: 285px;
+    height: 250px;
+  }
+  .news .news-back .news__content .news-heading {
+    font-size: 40px;
+  }
+  .news .news-back .news__content .news__product {
+    row-gap: 32px;
+    -ms-grid-columns: (minmax(1px, 1fr))[1];
+        grid-template-columns: repeat(1, minmax(1px, 1fr));
+  }
+  .news .news-back .news__content .news__product .news__image {
+    max-width: 952px;
+  }
+  .news .news-back .news__content .news__product .news__section {
+    max-width: 952px;
+  }
+}
+
+@media (max-width: 900px) {
+  .projects .projects__content-back .projects__content {
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .projects .projects__content-back .projects__content .projects__double-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__image {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content {
+    max-width: 430px;
+    height: 100%;
+    padding: 16px 16px 16px 16px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content .card__content-tags {
+    margin: 10px 0 0 0;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card .single-card__image {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__image {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text {
+    padding: 16px 16px 16px 16px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+    max-width: 330px;
+  }
+  .magazine .magazine-back .section__8-left-top {
+    left: -7%;
+  }
+  .magazine .magazine-back .section__8-right {
+    width: 350px;
+    height: 275px;
+  }
+  .partnership .partership-back .partnership__content {
+    padding: 104px 0 104px 24px;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons {
+    padding: 0 24px 0 0;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons .partnership-heading {
+    font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .news .news-back .news__right-bottom {
+    width: 165px;
+    height: 175px;
+  }
+}
+
+@media (max-width: 700px) {
+  .slider-one {
+    height: 522px;
+  }
+  .slider-one .slider-one__content {
+    height: 522px;
+  }
+  .slider-one .slider-one__content .swiper-pagination-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100%;
+  }
+  .slider-one .slider-one__content .swiper-pagination-one .swiper-pagination-bullet {
+    margin: 0 5px 32px 5px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content {
+    padding: 0 10px 13px 10px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info h1::before {
+    content: 'СПОРТ - КОМАНДА63 ЗА ЧЕСТНЫЙ СПОРТ';
+    font-size: 30px;
+    max-width: 250px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info p {
+    font-size: 17px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info .main__button {
+    max-width: 300px;
+  }
+  .infographics .infographics__content-back {
+    padding: 53px 10px 11px 10px;
+    max-width: 320px;
+  }
+  .infographics .infographics__content-back .infographics__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector {
+    margin: 0 0 67px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 300px !important;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text {
+    margin: 0 0 0 5px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics__text {
+    margin: 16px 0 0 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics-heading {
+    line-height: 80%;
+    top: 0;
+    font-size: 56px;
+    margin: 18px 0 0 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics-heading.last {
+    margin: 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .icon__vector {
+    max-width: 140px !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1AB8EC), to(#02489F));
+    background-image: linear-gradient(180deg, #1AB8EC 0%, #02489F 100%);
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3 {
+    max-width: 78.5px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5 {
+    max-width: 129px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5::before {
+    display: block;
+  }
+  .media .media__content-back {
+    padding: 74px 10px 74px 10px;
+  }
+  .media .media__content-back .media-heading__buttons {
+    margin: 0 0 32px 0;
+  }
+  .media .media__content-back .media-heading__buttons .media-heading {
+    font-size: 30px;
+  }
+  .media .media__content-back .media-heading__buttons .media-buttons .swiper-button-prev-two {
+    width: 32px;
+    height: 32px;
+    margin: 0 16px 0 0;
+  }
+  .media .media__content-back .media-heading__buttons .media-buttons .swiper-button-next-two {
+    width: 32px;
+    height: 32px;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__date-photo {
+    margin: 16px 0 16px 0;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media-text {
+    margin: 0 0 16px 0;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__tags .media__tag-container {
+    margin: 0 0 8px 0;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__tags .media__tag-container .media__tag {
+    white-space: nowrap;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__date-photo {
+    margin: 16px 0 16px 0;
+  }
+  .media .media__content-back .media__content .media__small-slide .media-text {
+    margin: 0 0 16px 0;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__tags .media__tag-container {
+    margin: 0 0 8px 0;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__tags .media__tag-container .media__tag {
+    white-space: nowrap;
+  }
+  .media .main__button {
+    max-width: 300px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back {
+    padding: 72px 10px 72px 10px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__selects {
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select {
+    margin: 0 20px 0 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select:last-child {
+    margin: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-prev-calend {
+    margin: 0 16px 0 0;
+    width: 32px;
+    height: 32px;
+    fill: #02489f;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-prev-calend:hover {
+    fill: rgba(2, 72, 159, 0.7);
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-next-calend {
+    width: 32px;
+    height: 32px;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+    fill: #02489f;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-next-calend:hover {
+    fill: rgba(2, 72, 159, 0.7);
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-disabled {
+    fill: rgba(2, 72, 159, 0.3);
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-heading {
+    font-size: 30px;
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein {
+    margin: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date h2 {
+    font-size: 17px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__tournament {
+    font-size: 17px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+    margin: 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content {
+    padding: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .results {
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .main__button {
+    display: none;
+  }
+  .projects .projects__content-back {
+    padding: 73px 10px 73px 10px;
+  }
+  .projects .projects__content-back .projects__heading {
+    font-size: 30px;
+  }
+  .projects .projects__content-back .projects__content {
+    gap: 32px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0 0 43px 0;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__image {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content .double-card__text h1 {
+    font-size: 17px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card .single-card__image {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card .single-card__text h2 {
+    font-size: 17px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__image {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .main__button {
+    max-width: 300px;
+  }
+  .sports-objects .sports-objects__content-back {
+    padding: 72px 10px 72px 10px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0 0 32px 0;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+    font-size: 30px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map {
+    margin: 16px 0 0 0;
+    font-size: 20px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map .sports-objects__arrow {
+    width: 24px;
+    height: 24px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content {
+    gap: 32px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0 0 48px 0;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place {
+    max-width: 680px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place:last-child {
+    display: block;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-objects__image {
+    max-width: 680px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map {
+    margin: 8px 0 0 0;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map .sports-object__place {
+    font-size: 17px;
+  }
+  .sports-objects .main__button {
+    max-width: 300px;
+  }
+  .magazine .magazine-back .section__8-left-top {
+    width: 160px;
+    height: 210px;
+  }
+  .magazine .magazine-back .section__8-right {
+    width: 190px;
+    height: 165px;
+    top: 408px;
+  }
+  .magazine .magazine-back .magazine__content-back {
+    padding: 72px 10px 72px 10px;
+  }
+  .magazine .magazine-back .magazine__content-back h1 {
+    font-size: 40px;
+    margin: 0 0 32px 0;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    -webkit-column-gap: 20px !important;
+            column-gap: 20px !important;
+    row-gap: 32px !important;
+    margin: 0 0 48px 0;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product:nth-last-child(1) {
+    display: block;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name {
+    margin: 0 0 4px 0;
+    font-size: 17px !important;
+  }
+  .magazine .magazine-back .main__button {
+    max-width: 300px;
+  }
+
+
+/*media*/

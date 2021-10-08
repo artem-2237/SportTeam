@@ -1,0 +1,343 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.department {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  width: 100%;
+}
+
+.department .contacts-back {
+  background: linear-gradient(99.31deg, #02489F -26.39%, #1AB8EC 114.97%);
+  width: 100%;
+}
+
+.department .contacts-back .contacts-container {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto 0 auto;
+}
+
+.department .contacts-back .contacts-container .trip__top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.department .contacts-back .contacts-container .contacts-content {
+  width: 100%;
+  max-width: 1536px;
+  margin: 0 auto 0 auto;
+  padding: 104px 24px 104px 24px;
+}
+
+.department .contacts-back .contacts-container .contacts-content h2 {
+  text-transform: uppercase;
+  font-family: 'Magistral-Bold';
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 56px 0;
+}
+
+.department .contacts-back .contacts-container .contacts-content .contacts-info .phone-heading {
+  font-family: 'Inter-Regular';
+  font-size: 20px;
+  line-height: 140%;
+  display: block;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+  text-decoration: none;
+}
+
+.department .contacts-back .contacts-container .contacts-content .contacts-info .contacts-phone {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  line-height: 140%;
+  display: block;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+  text-decoration: none;
+}
+
+.department .contacts-back .contacts-container .contacts-content .contacts-info .position-heading {
+  font-family: 'Inter-Regular';
+  font-size: 20px;
+  line-height: 140%;
+  display: block;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+  text-decoration: none;
+}
+
+.department .contacts-back .contacts-container .contacts-content .contacts-info .position-name {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  line-height: 140%;
+  display: block;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+  text-decoration: none;
+}
+
+.department .contacts-back .contacts-container .contacts-content .contacts-info .email-heading {
+  font-family: 'Inter-Regular';
+  font-size: 20px;
+  line-height: 140%;
+  display: block;
+  color: #ffffff;
+  margin: 0 0 4px 0;
+  text-decoration: none;
+}
+
+.department .contacts-back .contacts-container .contacts-content .contacts-info .email {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  line-height: 140%;
+  display: block;
+  color: #ffffff;
+  margin: 0 0 24px 0;
+  text-decoration: underline;
+}
+
+.department .contacts-back .contacts-container .contacts-content .contacts-info a:nth-last-child(1) {
+  margin: 0;
+}
+
+.department .depatmnent__text {
+  max-width: 1536px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 104px 24px 104px 24px;
+}
+
+.department .depatmnent__text h1 {
+  text-transform: uppercase;
+  font-family: 'Magistral-Bold';
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  display: block;
+  margin: 0 0 16px 0;
+  word-wrap: break-word;
+}
+
+.department .depatmnent__text .text {
+  font-family: 'Inter-Regular';
+  font-size: 20px;
+  color: #2B2B2B;
+  text-decoration: none;
+  display: block;
+  line-height: 140%;
+}
+
+.department .department__questions {
+  max-width: 1536px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 104px 24px 156px 24px;
+}
+
+.department .department__questions h1 {
+  text-transform: uppercase;
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  display: block;
+  margin: 0 0 56px 0;
+}
+
+.department .department__questions .documents__container .accordion {
+  border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+}
+
+.department .department__questions .documents__container .accordion:nth-child(1) {
+  border-top: 1px solid rgba(43, 43, 43, 0.1);
+}
+
+.department .department__questions .documents__container .accordion .button__accordion {
+  padding: 32px 0 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.department .department__questions .documents__container .accordion .button__accordion a {
+  font-family: 'Inter-Bold';
+  font-size: 20px;
+  color: #2B2B2B;
+  text-decoration: none;
+  display: block;
+}
+
+.department .department__questions .documents__container .accordion .button__accordion .accordion__icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 24px;
+}
+
+.department .department__questions .documents__container .accordion .button__accordion .accordion__icon span {
+  content: "";
+  position: absolute;
+  top: 10.5px;
+  width: 24px;
+  height: 3px;
+  background-color: #2B2B2B;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.department .department__questions .documents__container .accordion .button__accordion .accordion__icon::after {
+  content: "";
+  position: absolute;
+  top: 10.5px;
+  width: 24px;
+  height: 3px;
+  background-color: #2B2B2B;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.department .department__questions .documents__container .accordion .button__accordion._active .accordion__icon::after {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.department .department__questions .documents__container .accordion .button__accordion._active .accordion__icon span {
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+
+.department .department__questions .documents__container .accordion .panel__accordion {
+  padding: 0 0 32px 0;
+  display: none;
+}
+
+.department .department__questions .documents__container .accordion .panel__accordion._active {
+  display: block;
+}
+
+.department .department__questions .documents__container .accordion .panel__accordion .panel__txt {
+  font-size: 15px;
+  line-height: 140%;
+  font-family: 'Inter-Medium';
+  color: #2B2B2B;
+  text-decoration: none;
+  display: block;
+  margin: 0 0 16px 0;
+}
+
+.department .department__questions .documents__container .accordion .panel__accordion .panel__txt:nth-last-child(1) {
+  margin: 0;
+}
+
+.department .department__questions .documents__container .accordion .panel__accordion .panel__txt .panel__txt-link {
+  color: #02489F;
+  text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .department .contacts-back .contacts-container .trip__top-right {
+    width: 350px;
+    height: 350px;
+  }
+  .department .depatmnent__text h1 {
+    font-size: 40px;
+  }
+  .department .department__questions {
+    padding: 104px 24px 104px 24px;
+  }
+  .department .department__questions h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .department .contacts-back .contacts-container .trip__top-right {
+    width: 300px;
+    height: 320px;
+  }
+  .department .depatmnent__text h1 {
+    font-size: 40px;
+  }
+  .department .department__questions {
+    padding: 104px 24px 104px 24px;
+  }
+  .department .department__questions h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .department .contacts-back .contacts-container .trip__top-right {
+    width: 140px;
+    height: 140px;
+  }
+  .department .contacts-back .contacts-container .contacts-content {
+    padding: 72px 10px 72px 10px;
+  }
+  .department .contacts-back .contacts-container .contacts-content h2 {
+    font-size: 20px;
+    margin: 0 0 32px;
+  }
+  .department .contacts-back .contacts-container .contacts-content .contacts-info .phone-heading {
+    font-size: 17px;
+    margin: 0 0 4px 0;
+  }
+  .department .contacts-back .contacts-container .contacts-content .contacts-info .contacts-phone {
+    font-size: 16px;
+  }
+  .department .contacts-back .contacts-container .contacts-content .contacts-info .position-heading {
+    font-size: 17px;
+    margin: 0 0 4px 0;
+  }
+  .department .contacts-back .contacts-container .contacts-content .contacts-info .position-name {
+    font-size: 16px;
+  }
+  .department .contacts-back .contacts-container .contacts-content .contacts-info .email-heading {
+    font-size: 17px;
+    margin: 0 0 4px 0;
+  }
+  .department .contacts-back .contacts-container .contacts-content .contacts-info .email {
+    font-size: 16px;
+  }
+  .department .depatmnent__text {
+    padding: 72px 10px 72px 10px;
+  }
+  .department .depatmnent__text h1 {
+    font-size: 30px;
+    margin: 0 0 32px 0;
+  }
+  .department .depatmnent__text .text {
+    font-size: 17px;
+  }
+  .department .department__questions {
+    padding: 72px 10px 72px 10px;
+  }
+  .department .department__questions h1 {
+    font-size: 20px;
+    margin: 0 0 43px 0;
+  }
+  .department .department__questions .documents__container .accordion .button__accordion a {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,397 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sprites {
+  display: none;
+}
+
+.sportsman-nophoto {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sportsman-nophoto .sportsman__content {
+  margin: 0 auto 0 auto;
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: auto 1fr;
+      grid-template-rows: auto 1fr;
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  position: relative;
+}
+
+.sportsman-nophoto .sportsman__content .no-photo {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  max-width: 597px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__content-name {
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  color: #2B2B2B;
+  display: block;
+  margin: 52px 0 32px 0;
+  max-width: 640px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .kind__sport-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 32px 0;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .kind__sport-logo .sport-logo {
+  width: 104px;
+  height: 104px;
+  background-image: url(../img/main/calendar__circle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .kind__sport-logo p {
+  font-family: 'Inter-Bold';
+  font-size: 25px;
+  color: #02489F;
+  display: block;
+  margin: 0 0 0 24px;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .sportsman-descr {
+  margin: 0 0 32px 0;
+  display: block;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #2B2B2B;
+  line-height: 140%;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .birth__date-data {
+  margin: 0 0 32px 0;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .birth__date-data .birth-date {
+  display: block;
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: #2B2B2B;
+  margin: 0 0 4px 0;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .birth__date-data .birth-data {
+  font-family: 'Inter-Bold';
+  font-size: 20px;
+  color: #2B2B2B;
+  display: block;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .birth__place-data .birth-place {
+  display: block;
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: #2B2B2B;
+}
+
+.sportsman-nophoto .sportsman__content .sportsman__info .birth__place-data .birth-data {
+  font-family: 'Inter-Bold';
+  font-size: 20px;
+  color: #2B2B2B;
+  display: block;
+  margin: 0 0 4px 0;
+}
+
+.sportsman-nophoto .sportsman__achievements-back {
+  background: linear-gradient(99.31deg, #02489F -26.39%, #1AB8EC 114.97%);
+  width: 100%;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content {
+  margin: 0 auto 0 auto;
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 156px 24px;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 56px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-heading {
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  color: #ffffff;
+  display: block;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons .swiper-button-prev-achievements {
+  width: 64px;
+  height: 64px;
+  fill: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons .swiper-button-prev-achievements:hover {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons .swiper-button-next-achievements {
+  width: 64px;
+  height: 64px;
+  fill: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 0 0 0 24px;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons .swiper-button-next-achievements:hover {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons .swiper-button-disabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide {
+  height: auto;
+  max-width: 342px;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide .swiper-slide__content {
+  height: 100% !important;
+  max-width: 342px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide .swiper-slide__content .achievements__slide-place {
+  color: rgba(43, 43, 43, 0.5);
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  display: block;
+  margin: 0 0 8px 0;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide .swiper-slide__content h2 {
+  color: #2b2b2b;
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  display: block;
+  margin: 0 0 16px 0;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide .swiper-slide__content .achievements__medal-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide .swiper-slide__content .achievements__medal-descr img {
+  width: 40px;
+  height: 40px;
+  margin: 0 16px 0 0;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide .swiper-slide__content .achievements__medal-descr .medal-descr .medal__place {
+  color: #2b2b2b;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  display: block;
+  line-height: 140%;
+}
+
+.sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-slider .swiper-wrapper .swiper-slide .swiper-slide__content .achievements__medal-descr .medal-descr .medal__place-descr {
+  color: #2b2b2b;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  display: block;
+  line-height: 140%;
+}
+
+@media (max-width: 1000px) {
+  .sportsman-nophoto .sportsman__content .no-photo {
+    position: absolute;
+    grid-row: none;
+    grid-column: none;
+    max-width: 460px;
+    right: 24px;
+    bottom: 0;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__content-name {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    font-size: 40px;
+    margin: 0 0 56px 0;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  .sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content {
+    padding: 104px 24px 104px 24px;
+  }
+  .sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .sportsman-nophoto .sportsman__content .no-photo {
+    max-width: 348px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sportsman-nophoto .sportsman__content {
+    padding: 72px 10px 72px 10px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .sportsman-nophoto .sportsman__content .no-photo {
+    display: none;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__content-name {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    font-size: 17px;
+    margin: 0 0 32px 0;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info .kind__sport-logo {
+    margin: 0 0 32px 0;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info .kind__sport-logo .sport-logo {
+    width: 80px;
+    height: 80px;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info .kind__sport-logo .sport-logo img {
+    width: 38px;
+    height: 32px;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info .kind__sport-logo p {
+    margin: 0 0 0 16px;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info .birth__date-data .birth-data {
+    font-size: 17px;
+  }
+  .sportsman-nophoto .sportsman__content .sportsman__info .birth__place-data .birth-data {
+    font-size: 17px;
+  }
+  .sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content {
+    padding: 72px 10px 72px 10px;
+  }
+  .sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-heading {
+    font-size: 30px;
+    margin: 0 16px 0 0;
+  }
+  .sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons .swiper-button-prev-achievements {
+    width: 32px;
+    height: 32px;
+  }
+  .sportsman-nophoto .sportsman__achievements-back .sportsman__achievements-content .achievements-heading__buttons .achievements-buttons .swiper-button-next-achievements {
+    width: 32px;
+    height: 32px;
+    margin: 0 0 0 16px;
+  }
+}

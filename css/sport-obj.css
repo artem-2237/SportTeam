@@ -1,0 +1,266 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sprites {
+    display: none;
+  }
+  
+.sports-objects .sports-objects__content-back .news-page__content-back .news-tags__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 48px 0;
+  }
+  
+  .sports-objects .sports-objects__content-back .news-page__content-back .news-tags__container .news-page__tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .sports-objects .sports-objects__content-back .news-tags__container .news-page__tags .news-tags__descr {
+    white-space: nowrap;
+    line-height: 140%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Inter-Regular';
+    font-size: 15px;
+    color: #2b2b2b;
+    margin: 0 16px 0 0;
+  }
+  
+  .sports-objects .sports-objects__content-back .news-tags__container .news-page__tags .news-page__tag-container {
+    padding: 9px 0 9px 0;
+    margin: 8px 8px 8px 0;
+  }
+  
+  .sports-objects .sports-objects__content-back .news-tags__container .news-page__tags .news-page__tag-container .news__tag {
+    cursor: pointer;
+    padding: 9px 12px 9px 12px;
+    font-family: 'Inter-Medium';
+    font-size: 15px;
+    color: #2b2b2b;
+    border: 1px solid #d8d8d8;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+  }
+  
+  .sports-objects .sports-objects__content-back .news-tags__container .news-page__tags .news-page__tag-container .news__tag:hover {
+    color: #ffffff;
+    background: #02489F;
+  }
+
+  .news-page__tags {
+      display: flex;
+  }
+
+  .sports-objects .sports-objects__content-back .news-tags__container .news-page__tags .news-page__tag-container .tag-active {
+    background-color: #02489F;
+    color: white;
+  }
+
+  .calendar-years {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    margin: 0 0 60px 0;
+  }
+
+.calendar-years__btn {
+    cursor: pointer;
+    max-width: 190px;
+    width: 100%;
+    font-family: 'Inter-Regular';
+    color: #818181;
+    font-size: 15px;
+    border: 1px solid #2B2B2B;
+    border-radius: 50px;
+    background-color: rgba(43, 43, 43, 0);
+    padding: 14px 0 13px 0;
+    margin: 0 12px 0 12px;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+  }
+
+.years-btn__sub {
+    background: #02489F;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.calendar-years a {
+    color: #02489F;
+    font-size: 17px;
+    font-family: 'Inter-Regular';
+    margin-top: 25px;
+}
+
+.select__header {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.select__current {
+    padding-right: 7px;
+    padding-left: 7px;
+    font-family: 'Inter-Regular';
+}
+
+
+
+
+
+
+
+
+
+.sports-objects .sports-objects__content-back .sportsmans-page__main-bullets {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-button-prev__sportsmans-main {
+    width: 14px;
+    height: 12px;
+    fill: #2b2b2b;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 0 16px 0 0;
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-button-prev__sportsmans-main:hover {
+    fill: rgba(43, 43, 43, 0.7);
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    color: #2B2B2B;
+    font-family: 'Inter-Medium';
+    font-size: 20px;
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: 'Inter-Medium';
+    font-size: 20px;
+    color: #2B2B2B;
+    opacity: 1;
+    margin: 0 8px 0 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet:hover {
+    background-color: rgba(2, 72, 159, 0.1);
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet-active {
+    background-color: #02489F;
+    color: #ffffff;
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-pagination__sportsmans-main .swiper-pagination-bullet-active:hover {
+    background-color: #02489F;
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-button-next__sportsmans-main {
+    width: 14px;
+    height: 12px;
+    fill: #2b2b2b;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin: 0 0 0 16px;
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-button-next__sportsmans-main:hover {
+    fill: rgba(43, 43, 43, 0.7);
+  }
+  
+  .sports-objects .sports-objects__content-back .sportsmans-page__main-bullets .swiper-button-disabled {
+    fill: rgba(43, 43, 43, 0.3);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .btn-reset {
+      display: none;
+      margin-top: 10px;
+    }
+    .select__mobile {
+        display: flex;
+    }  
+    .calendar-years__btn {
+        margin-top: 15px;
+    }
+    .years-btn__sub {
+        background: rgba(43, 43, 43, 0.1);
+        color: #FFFFFF;
+        border: 0;
+
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .select__mobile {
+      display: none;
+    }  
+  }
+  

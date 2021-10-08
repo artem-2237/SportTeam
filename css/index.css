@@ -1,0 +1,2809 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sprites {
+  display: none;
+}
+
+/*section1*/
+.slider-one {
+  position: relative;
+  max-height: 680px;
+  margin: 0 auto 0 auto;
+  max-width: 2560px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-one .slider-one__content {
+  max-height: 680px;
+  position: relative;
+}
+
+.slider-one .slider-one__content .swiper-pagination-one {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  max-width: 1536px;
+  right: 0;
+  left: 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto 0 auto;
+}
+
+.slider-one .slider-one__content .swiper-pagination-one .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffffff;
+  background: none;
+  opacity: 1;
+  margin: 5px 24px 5px 0;
+}
+
+.slider-one .slider-one__content .swiper-pagination-one .swiper-pagination-bullet-active {
+  background-color: #ffffff;
+}
+
+.slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content {
+  max-width: 1536px;
+  padding: 0 24px 13px 24px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info h1::before {
+  content: 'СПОРТКОМАНДА63 ЗА ЧЕСТНЫЙ СПОРТ';
+  font-family: 'Magistral-Bold';
+  color: #ffffff;
+  font-size: 63px;
+  display: block;
+  max-width: 780px;
+}
+
+.slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info p {
+  font-family: 'Inter-Regular';
+  color: #ffffff;
+  font-size: 20px;
+  display: block;
+  margin: 32px 0 32px 0;
+}
+
+.slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info .main__button {
+  margin: 0 0 0 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+.slider-one .slider-one__content .swiper-wrapper .swiper-slide .one__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*section1*/
+/*section3*/
+.infographics {
+  margin: 0 auto 0 auto;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.infographics .infographics__content-back {
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  margin: 0 auto 0 auto;
+}
+
+.infographics .infographics__content-back .infographics__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1389px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector {
+  max-width: 215px;
+  width: 100%;
+  position: relative;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector:last-child {
+  max-width: 245px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Group-2007 {
+  width: 12px;
+  font-size: 12px;
+  margin: 0 0 0 4px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Group-2007::before {
+  width: 12px;
+  font-size: 12px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector:hover .icon__vector {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1AB8EC), to(#02489F));
+  background-image: linear-gradient(180deg, #1AB8EC 0%, #02489F 100%);
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics-heading {
+  position: relative;
+  top: 24px;
+  font-family: 'Magistral-Medium';
+  font-size: 104px;
+  color: #2B2B2B;
+  display: block;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics__text {
+  display: block;
+  margin: 35px 0 0 0;
+  text-decoration: none;
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 20px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector .icon__vector {
+  position: absolute;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  display: block;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 184, 236, 0.15)), to(rgba(2, 72, 159, 0.15)));
+  background-image: linear-gradient(180deg, rgba(26, 184, 236, 0.15) 0%, rgba(2, 72, 159, 0.15) 100%);
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2 {
+  top: 7px;
+  left: 0;
+  max-width: 194px;
+  font-size: 150px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2::before {
+  display: block;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3 {
+  top: 0;
+  left: 0;
+  max-width: 118px;
+  font-size: 157px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3::before {
+  display: block;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4 {
+  top: 7px;
+  left: 0;
+  max-width: 203px;
+  font-size: 157px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4::before {
+  display: block;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5 {
+  top: 0;
+  left: 0;
+  max-width: 194px;
+  font-size: 157px;
+}
+
+.infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5::before {
+  display: block;
+}
+
+/*section3*/
+/*section4*/
+.sports-objects {
+  margin: 0 auto 0 auto;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.sports-objects .sports-objects__content-back {
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  margin: 0 auto 0 auto;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 60px 0;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+  font-family: 'Magistral-Bold';
+  color: #2B2B2B;
+  font-size: 63px;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map {
+  font-family: 'Magistral-Bold';
+  color: #02489F;
+  font-size: 30px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map:hover .sports-objects__arrow {
+  fill: rgba(2, 72, 159, 0.7);
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map .sports-objects__arrow {
+  width: 32px;
+  height: 32px;
+  fill: #02489F;
+  margin: 0 0 0 8px;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content {
+  margin: 0 0 72px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place {
+  max-width: 342px;
+  width: 100%;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-objects__image {
+  overflow: hidden;
+  max-width: 342px;
+  width: 100%;
+  display: block;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-objects__image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-objects__image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map {
+  margin: 16px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map .sports-object__place {
+  font-family: 'Inter-Bold';
+  font-size: 20px;
+  color: #2B2B2B;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map .sports-object__place:hover {
+  color: #02489F;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map .sports-object__map {
+  font-family: 'Magistral-Medium';
+  font-size: 15px;
+  color: #02489F;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map .sports-object__map:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.sports-objects .main__button {
+  background-color: #02489F;
+  border: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.sports-objects .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+/*section4*/
+/*section5*/
+.news {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(99.31deg, #02489F -26.39%, #1AB8EC 114.97%);
+}
+
+.news .news-back {
+  margin: 0 auto 0 auto;
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.news .news-back .news__left-top {
+  width: 40%;
+  height: 380px;
+  position: absolute;
+  top: 212px;
+  left: 0;
+  z-index: -1;
+}
+
+.news .news-back .news__right-bottom {
+  width: 400px;
+  height: 320px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.news .news-back .news__content {
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  margin: 0 auto 0 auto;
+}
+
+.news .news-back .news__content .news-heading {
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  color: #ffffff;
+  display: block;
+  margin: 0 0 56px 0;
+}
+
+.news .news-back .news__content .news__product {
+  gap: 32px;
+  margin: 0 0 72px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(1px, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(1px, 1fr));
+}
+
+.news .news-back .news__content .news__product .news__image {
+  max-width: 597px;
+  display: block;
+  overflow: hidden;
+}
+
+.news .news-back .news__content .news__product .news__image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+}
+
+.news .news-back .news__content .news__product .news__image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.news .news-back .news__content .news__product .news__section {
+  width: 100%;
+  max-width: 580px;
+}
+
+.news .news-back .news__content .news__product .news__section .news-date {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+}
+
+.news .news-back .news__content .news__product .news__section .heading-text__link {
+  display: block;
+  text-decoration: none;
+}
+
+.news .news-back .news__content .news__product .news__section .heading-text__link:hover span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.news .news-back .news__content .news__product .news__section .heading-text__link .news-heading__small {
+  font-family: 'Inter-Bold';
+  font-size: 25px;
+  color: white;
+  display: block;
+  margin: 24px 0 24px 0;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.news .news-back .news__content .news__product .news__section .heading-text__link .news-text {
+  font-family: 'Inter-Regular';
+  font-size: 20px;
+  color: white;
+  display: block;
+  margin: 0 0 24px 0;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.news .news-back .news__content .news__product .news__section .news__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news .news-back .news__content .news__product .news__section .news__tags .news__tag-container {
+  margin: 0 8px 0 0;
+  padding: 9px 0 9px 0;
+}
+
+.news .news-back .news__content .news__product .news__section .news__tags .news__tag-container .news__tag {
+  cursor: pointer;
+  padding: 9px 12px 9px 12px;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: white;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.news .news-back .news__content .news__product .news__section .news__tags .news__tag-container .news__tag:hover {
+  color: #1AB8EC;
+  background-color: #ffffff;
+}
+
+.news .news-back .main__button {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.news .news-back .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+/*section5*/
+/*section6*/
+.projects {
+  margin: 0 auto 0 auto;
+  max-width: 1920px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.projects .projects__content-back {
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  margin: 0 auto 0 auto;
+}
+
+.projects .projects__content-back .projects__heading {
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  color: #2B2B2B;
+  display: block;
+  margin: 0 0 56px 0;
+}
+
+.projects .projects__content-back .projects__content {
+  gap: 40px;
+  margin: 0 0 72px 0;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  display: -ms-grid;
+  display: grid;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card {
+  background-color: #ffffff;
+  max-width: 724px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+}
+
+.projects .projects__content-back .projects__content .projects__double-card:nth-child(1) {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  margin: 0 0 0 0;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__image {
+  display: block;
+  width: 100%;
+  max-width: 342px;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__image img {
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content {
+  max-width: 380px;
+  width: 100%;
+  padding: 24px 24px 16px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .double-card__text h1 {
+  font-family: 'Inter-Bold';
+  font-size: 20px;
+  color: #2B2B2B;
+  display: block;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .double-card__text hr {
+  height: 2px;
+  background-color: #02489F;
+  color: #02489F;
+  width: 56px;
+  border: none;
+  margin: 8px 0 16px 0;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .double-card__text .card__content-text {
+  margin: 0 0 32px 0;
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: #2B2B2B;
+  display: block;
+  text-decoration: none;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .double-card__text .card__content-more {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #02489F;
+  display: block;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .double-card__text .card__content-more:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .card__content-tags {
+  margin: 16px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .card__content-tags .card__content-tag {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  display: block;
+  color: rgba(2, 72, 159, 0.3);
+  margin: 0 16px 0 0;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.projects .projects__content-back .projects__content .projects__double-card .double-card__content .card__content-tags .card__content-tag:hover {
+  color: #02489F;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card {
+  -webkit-box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  position: relative;
+  max-width: 342px;
+  width: 100%;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__image {
+  max-width: 342px;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__image img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__text {
+  padding: 16px 24px 16px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__text:hover h2 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__text h2 {
+  font-family: 'Inter-Bold';
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  margin: 0 0 16px 0;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__text .single-card-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__text .single-card-tags .single-card-tag {
+  margin: 0 16px 0 0;
+  text-decoration: none;
+  display: block;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.projects .projects__content-back .projects__content .projects__single-card .single-card__text .single-card-tags .single-card-tag:hover {
+  color: white;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card {
+  -webkit-box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  max-width: 342px;
+  width: 100%;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__image {
+  max-width: 342px;
+  width: 100%;
+  display: block;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 24px 24px 16px 24px;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .card__text-content {
+  height: 100%;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .card__text-content h2 {
+  font-family: 'Inter-Bold';
+  font-size: 20px;
+  color: #2B2B2B;
+  display: block;
+  text-decoration: none;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .card__text-content hr {
+  height: 2px;
+  background-color: #02489F;
+  color: #02489F;
+  width: 56px;
+  border: none;
+  margin: 8px 0 16px 0;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .card__text-content .single__content-text {
+  margin: 0 0 32px 0;
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: #2B2B2B;
+  display: block;
+  text-decoration: none;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .card__text-content .single__content-more {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #02489F;
+  display: block;
+  margin: 0 0 31px 0;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .card__text-content .single__content-more:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .vertical-card-tags {
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .vertical-card-tags .vertical-card-tag {
+  margin: 0 16px 0 0;
+  text-decoration: none;
+  display: block;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: rgba(2, 72, 159, 0.3);
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text .vertical-card-tags .vertical-card-tag:hover {
+  color: #02489F;
+}
+
+.projects .projects__content-back .main__button {
+  background-color: #02489F;
+  border: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.projects .projects__content-back .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+/*section6*/
+/*section7*/
+.competition-calendar {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.competition-calendar .competition-calendar__back {
+  max-width: 1920px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.competition-calendar .competition-calendar__back .calendar-right__top {
+  max-width: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 321px;
+  z-index: 1;
+}
+
+.competition-calendar .competition-calendar__back .calendar-left__bottom {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 408px;
+  left: 46px;
+  bottom: 187px;
+  position: absolute;
+  z-index: 1;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back {
+  position: relative;
+  max-width: 1536px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+  z-index: 1;
+  padding: 104px 24px 104px 24px;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects {
+  margin: 0 0 56px 0;
+  display: none;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select {
+  margin: 0 24px 0 0;
+  max-width: 213px;
+  width: 100%;
+  position: relative;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select .select__header {
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px 20px 13px 20px;
+  border: 1px solid #2B2B2B;
+  border-radius: 50px;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select .select__header .select__current {
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select .select__icon {
+  margin: 0 0 0 auto;
+  width: 8px;
+  height: 6px;
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select .select__icon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select .select__body {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  border: 1px solid #2B2B2B;
+  border-top: 0;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select .select__body .select__item {
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider {
+  display: none;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .select.active .select__body {
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar-heading {
+  font-family: 'Magistral-Bold';
+  color: #2B2B2B;
+  font-size: 63px;
+  margin: 0 0 56px 0;
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar-years {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 32px 0;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar-years .calendar-years__btn {
+  cursor: pointer;
+  max-width: 117px;
+  width: 100%;
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.1);
+  border-radius: 50px;
+  background-color: rgba(43, 43, 43, 0);
+  padding: 14px 0 13px 0;
+  margin: 0 12px 0 12px;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar-years .calendar-years__btn:hover {
+  border: 1px solid #2b2b2b;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar-months {
+  border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+  padding: 0 0 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 32px 0;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar-months .calendar-months__btn {
+  cursor: pointer;
+  text-align: center;
+  background-color: rgba(43, 43, 43, 0);
+  font-family: 'Inter-Regular';
+  color: #2B2B2B;
+  font-size: 15px;
+  border: none;
+  max-width: 88px;
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein {
+  background-color: #ffffff;
+  max-width: 1488px;
+  width: 100%;
+  margin: 0 0 72px 0;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.1);
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 {
+  padding: 32px 20px 32px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 426px;
+  width: 100%;
+  position: relative;
+  border-right: 1px solid #02489F;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .kind__image {
+  min-width: 56px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/main/calendar__circle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  right: -28px;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date h2 {
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  color: #2B2B2B;
+  display: block;
+  margin: 0 0 8px 0;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date .calendar-kind__sport {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: #2B2B2B;
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 {
+  padding: 32px 20px 32px 48px;
+  max-width: 593px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content {
+  max-width: 440px;
+  width: 100%;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__place {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: rgba(43, 43, 43, 0.5);
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__tournament {
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  color: #2b2b2b;
+  display: block;
+  margin: 16px 0 16px 0;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__participants {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: rgba(43, 43, 43, 0.5);
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .participants-list {
+  color: #02489F;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .participants-list .participant {
+  color: #02489F;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .participants-list .participant:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+  max-width: 469px;
+  width: 100%;
+  padding: 32px 20px 32px 20px;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .results {
+  margin: 0 0 16px 0;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #2b2b2b;
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners {
+  margin: 0 0 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__medal {
+  margin: 0 16px 0 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__medal img {
+  min-width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal__place {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #2b2b2b;
+  display: block;
+  margin: 0 0 3px 0;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-name {
+  display: block;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-name .medal-name__link {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #02489F;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-name .medal-name__link:hover {
+  color: rgba(2, 72, 159, 0.7);
+}
+
+.competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .calendar__medal-winners .calendar__winners .medal-name__description .medal-description {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.competition-calendar .competition-calendar__back .main__button {
+  border: none;
+  background-color: #02489F;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.competition-calendar .competition-calendar__back .main__button:hover img {
+  position: relative;
+  top: 8px;
+}
+
+.competition-calendar .competition-calendar__back .main__button img {
+  height: 14px;
+  width: 15px;
+}
+
+/*section7*/
+/*section8*/
+.media {
+  overflow: hidden;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.media .media__content-back {
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  margin: 0 auto 0 auto;
+}
+
+.media .media__content-back .media-heading__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 56px 0;
+}
+
+.media .media__content-back .media-heading__buttons .media-heading {
+  font-family: 'Magistral-Bold';
+  color: #2B2B2B;
+  font-size: 63px;
+  display: block;
+}
+
+.media .media__content-back .media-heading__buttons .media-buttons .swiper-button-prev-two {
+  width: 64px;
+  height: 64px;
+  fill: #02489F;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 0 24px 0 0;
+}
+
+.media .media__content-back .media-heading__buttons .media-buttons .swiper-button-prev-two:hover {
+  fill: rgba(2, 72, 159, 0.7);
+}
+
+.media .media__content-back .media-heading__buttons .media-buttons .swiper-button-next-two {
+  width: 64px;
+  height: 64px;
+  fill: #02489F;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.media .media__content-back .media-heading__buttons .media-buttons .swiper-button-next-two:hover {
+  fill: rgba(2, 72, 159, 0.7);
+}
+
+.media .media__content-back .media-heading__buttons .media-buttons .swiper-button-disabled {
+  fill: rgba(2, 72, 159, 0.3);
+}
+
+.media .media__content-back .media__content {
+  margin: 0 0 72px 0;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide {
+  width: 100%;
+  max-width: 597px;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .big-slide__image {
+  width: 100%;
+  max-width: 597px;
+  display: block;
+  overflow: hidden;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .big-slide__image a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .big-slide__image a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .big-slide__image a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media__date-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 24px 0 16px 0;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media__date-photo .media-date {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  display: block;
+  color: rgba(43, 43, 43, 0.5);
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media__date-photo .media-photo {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  display: block;
+  color: #02489F;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media-text {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  display: block;
+  margin: 0 0 24px 0;
+  color: #2B2B2B;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media__tags .media__tag-container {
+  padding: 9px 0 9px 0;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media__tags .media__tag-container .media__tag {
+  margin: 0 8px 0 0;
+  cursor: pointer;
+  padding: 9px 12px 9px 12px;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #02489F;
+  border-radius: 50px;
+  background: rgba(2, 72, 159, 0.2);
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__big-slide .media__tags .media__tag-container .media__tag:hover {
+  background: #02489F;
+  color: #ffffff;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide {
+  width: 100%;
+  max-width: 342px;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .small-slide__image {
+  width: 100%;
+  max-width: 342px;
+  display: block;
+  overflow: hidden;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .small-slide__image a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .small-slide__image a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .small-slide__image a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media__date-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 24px 0 16px 0;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media__date-photo .media-date {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  display: block;
+  color: rgba(43, 43, 43, 0.5);
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media__date-photo .media-photo {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  display: block;
+  color: #02489F;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media-text {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  display: block;
+  margin: 0 0 24px 0;
+  color: #2B2B2B;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media__tags .media__tag-container {
+  padding: 9px 0 9px 0;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media__tags .media__tag-container .media__tag {
+  margin: 0 8px 0 0;
+  cursor: pointer;
+  padding: 9px 12px 9px 12px;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #02489F;
+  border-radius: 50px;
+  background: rgba(2, 72, 159, 0.2);
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.media .media__content-back .media__content .swiper-wrapper .media__small-slide .media__tags .media__tag-container .media__tag:hover {
+  background: #02489F;
+  color: #ffffff;
+}
+
+.media .main__button {
+  border: none;
+  background-color: #02489F;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.media .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+/*section8*/
+/*section9*/
+.magazine {
+  overflow: hidden;
+  background: linear-gradient(99.31deg, #02489F -26.39%, #1AB8EC 114.97%);
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.magazine .magazine-back {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.magazine .magazine-back .section__8-left-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 265px;
+  height: 369px;
+  z-index: -1;
+}
+
+.magazine .magazine-back .section__8-right {
+  position: absolute;
+  right: 0;
+  top: 210px;
+  width: 534px;
+  height: 420px;
+  z-index: -1;
+}
+
+.magazine .magazine-back .magazine__content-back {
+  max-width: 1536px;
+  width: 100%;
+  padding: 104px 24px 104px 24px;
+  margin: 0 auto 0 auto;
+}
+
+.magazine .magazine-back .magazine__content-back h1 {
+  font-family: 'Magistral-Bold';
+  color: #ffffff;
+  font-size: 63px;
+  z-index: 2;
+  margin: 0 0 60px 0;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 0 0 75px 0;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product {
+  max-width: 342px;
+  width: 100%;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__image {
+  overflow: hidden;
+  max-width: 342px;
+  width: 100%;
+  display: block;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__image img {
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__type {
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin: 8px 0 4px 0;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__name {
+  cursor: pointer;
+  font-family: 'Inter-Medium';
+  font-size: 20px;
+  color: #ffffff;
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__name:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__price {
+  font-family: 'Inter-Regular';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.magazine .magazine-back .main__button {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.magazine .magazine-back .main__button:hover img {
+  position: relative;
+  left: 8px;
+}
+
+.main__button {
+  font-family: 'Magistral-Medium';
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  padding: 24px 0 23px 0;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin: 0 auto 0 auto;
+  cursor: pointer;
+}
+
+.main__button img {
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 16px;
+}
+
+/*section9*/
+/*section10*/
+.partnership {
+  background-color: #f9f9f9;
+  width: 100%;
+  overflow: hidden;
+}
+
+.partnership .partership-back {
+  max-width: 1920px;
+  margin: 0 auto 0 auto;
+  width: 100%;
+}
+
+.partnership .partership-back .partnership__content {
+  max-width: 1536px;
+  padding: 104px 24px 156px 24px;
+  margin: 0 auto;
+}
+
+.partnership .partership-back .partnership__content .partnership-heading__buttons {
+  margin: 0 0 56px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partnership .partership-back .partnership__content .partnership-heading__buttons .partnership-heading {
+  font-family: 'Magistral-Bold';
+  font-size: 63px;
+  color: #2B2B2B;
+  display: block;
+}
+
+.partnership .partership-back .partnership__content .partnership-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partnership .partership-back .partnership__content .partnership-buttons .swiper-button-prev-three {
+  width: 64px;
+  height: 64px;
+  fill: #02489F;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin: 0 24px 0 0;
+}
+
+.partnership .partership-back .partnership__content .partnership-buttons .swiper-button-prev-three:hover {
+  fill: rgba(2, 72, 159, 0.7);
+}
+
+.partnership .partership-back .partnership__content .partnership-buttons .swiper-button-next-three {
+  width: 64px;
+  height: 64px;
+  fill: #02489F;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.partnership .partership-back .partnership__content .partnership-buttons .swiper-button-next-three:hover {
+  fill: rgba(2, 72, 159, 0.7);
+}
+
+.partnership .partership-back .partnership__content .partnership-buttons .swiper-button-disabled {
+  fill: rgba(2, 72, 159, 0.3);
+}
+
+.partnership .partership-back .partnership__content .partnership__product {
+  overflow: hidden;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide {
+  position: relative;
+  max-width: 724px;
+  width: 100%;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide:hover .partnership-descr {
+  top: 0;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership-descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: 0.5s ease 0s;
+  transition: 0.5s ease 0s;
+  top: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(2, 72, 159, 0.7)), color-stop(0.01%, rgba(2, 72, 159, 0.6)), to(rgba(2, 72, 159, 0.4)));
+  background: linear-gradient(0deg, rgba(2, 72, 159, 0.7) 0%, rgba(2, 72, 159, 0.6) 0.01%, rgba(2, 72, 159, 0.4) 100%);
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership-descr a {
+  font-family: 'Magistral-Medium';
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 40px 0;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership-descr a img {
+  width: 14px;
+  height: 12px;
+  margin: 0 0 0 16px;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 40px 60px;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content .partnership__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content .partnership__tags .partnership__tag-container {
+  padding: 9px 0 9px 0;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content .partnership__tags .partnership__tag-container .partnership__tag {
+  margin: 0 8px 0 0;
+  cursor: pointer;
+  padding: 9px 12px 9px 12px;
+  font-family: 'Inter-Medium';
+  font-size: 15px;
+  color: #02489F;
+  border-radius: 50px;
+  background: rgba(2, 72, 159, 0.2);
+  -webkit-transition: 0.3s ease 0s;
+  transition: 0.3s ease 0s;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content .partnership__tags .partnership__tag-container .partnership__tag:hover {
+  background: #02489F;
+  color: #ffffff;
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  /*
+                            &:before{
+                                transition: all 0.3 ease 0s;
+                                opacity: 0;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                width: 100%;
+                                height: 100%;
+                                content: '';
+                                background: linear-gradient(0deg, rgba(2, 72, 159, 0.7) 0%, rgba(2, 72, 159, 0.6) 0.01%, rgba(2, 72, 159, 0.4) 100%);
+                                &:hover{
+                                    opacity: 1; 
+                                }
+                            }*/
+}
+
+.partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership-link img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*section10*/
+/*media*/
+@media (max-width: 1300px) {
+  .competition-calendar {
+    background-color: #ffffff;
+  }
+  .competition-calendar .competition-calendar__back .calendar-right__top {
+    display: none;
+  }
+  .competition-calendar .competition-calendar__back .calendar-left__bottom {
+    display: none;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__selects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-heading {
+    font-size: 40px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar-years {
+    display: none;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar-months {
+    display: none;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein {
+    background: none;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    border: none;
+    margin: 0 0 72px 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event:last-child {
+    border: none;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border: none;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    padding: 0 0 0 0;
+    margin: 0 0 32px 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .kind__image {
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    margin: 0 24px 0 0;
+    position: relative;
+    right: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date .calendar-kind__sport {
+    text-transform: uppercase;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0 0 0 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+    padding: 0 0 0 0;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    margin: 0 0 0 24px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content {
+    padding: 0 24px 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content {
+    padding: 0 0 20px 40px;
+  }
+  .projects .projects__content-back .projects__heading {
+    font-size: 40px;
+  }
+  .projects .projects__content-back .projects__content {
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .projects__content-back .projects__content :nth-child(5) {
+    display: none;
+  }
+  .projects .projects__content-back .projects__content :nth-child(6) {
+    display: none;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card:nth-child(1) {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__vertical-card:nth-child(1) {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+    font-size: 40px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slider-one {
+    max-height: 580px;
+  }
+  .slider-one .slider-one__content {
+    max-height: 580px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info h1::before {
+    font-size: 40px;
+    max-width: 470px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector {
+    max-width: 153px !important;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics__text {
+    margin: 35px 0 0 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics-heading {
+    top: 35px;
+    font-size: 64px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3 {
+    max-width: 78.5px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5 {
+    max-width: 129px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5::before {
+    display: block;
+  }
+  .media .media__content-back .media-heading__buttons .media-heading {
+    font-size: 40px;
+  }
+  .projects .projects__content-back .projects__content {
+    gap: 24px;
+  }
+  .magazine .magazine-back .section__8-left-top {
+    width: 160px;
+    height: 290px;
+  }
+  .magazine .magazine-back .section__8-right {
+    width: 460px;
+    height: 367px;
+    right: -18%;
+    top: 184px;
+  }
+  .magazine .magazine-back .magazine__content-back h1 {
+    font-size: 40px;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content {
+    -ms-grid-columns: (1fr)[3] !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    gap: 24px !important;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product:nth-last-child(1) {
+    display: none;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price .product__price {
+    font-size: 15px;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons .partnership-heading {
+    font-size: 40px;
+  }
+  .news .news-back .news__left-top {
+    width: 125%;
+    height: 380px;
+    top: 184px;
+    left: -30%;
+  }
+  .news .news-back .news__right-bottom {
+    width: 285px;
+    height: 250px;
+  }
+  .news .news-back .news__content .news-heading {
+    font-size: 40px;
+  }
+  .news .news-back .news__content .news__product {
+    row-gap: 32px;
+    -ms-grid-columns: (minmax(1px, 1fr))[1];
+        grid-template-columns: repeat(1, minmax(1px, 1fr));
+  }
+  .news .news-back .news__content .news__product .news__image {
+    max-width: 952px;
+  }
+  .news .news-back .news__content .news__product .news__section {
+    max-width: 952px;
+  }
+}
+
+@media (max-width: 900px) {
+  .projects .projects__content-back .projects__content {
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .projects .projects__content-back .projects__content .projects__double-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__image {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content {
+    max-width: 430px;
+    height: 100%;
+    padding: 16px 16px 16px 16px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content .card__content-tags {
+    margin: 10px 0 0 0;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card .single-card__image {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__image {
+    max-width: 430px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__text {
+    padding: 16px 16px 16px 16px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+    max-width: 330px;
+  }
+  .magazine .magazine-back .section__8-left-top {
+    left: -7%;
+  }
+  .magazine .magazine-back .section__8-right {
+    width: 350px;
+    height: 275px;
+  }
+  .partnership .partership-back .partnership__content {
+    padding: 104px 0 104px 24px;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons {
+    padding: 0 24px 0 0;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons .partnership-heading {
+    font-size: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .news .news-back .news__right-bottom {
+    width: 165px;
+    height: 175px;
+  }
+}
+
+@media (max-width: 700px) {
+  .slider-one {
+    height: 522px;
+  }
+  .slider-one .slider-one__content {
+    height: 522px;
+  }
+  .slider-one .slider-one__content .swiper-pagination-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100%;
+  }
+  .slider-one .slider-one__content .swiper-pagination-one .swiper-pagination-bullet {
+    margin: 0 5px 32px 5px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content {
+    padding: 0 10px 13px 10px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info h1::before {
+    content: 'СПОРТ - КОМАНДА63 ЗА ЧЕСТНЫЙ СПОРТ';
+    font-size: 30px;
+    max-width: 250px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info p {
+    font-size: 17px;
+  }
+  .slider-one .slider-one__content .swiper-wrapper .swiper-slide .slide__content-back .slide__content .slide__info .main__button {
+    max-width: 300px;
+  }
+  .infographics .infographics__content-back {
+    padding: 53px 10px 11px 10px;
+    max-width: 320px;
+  }
+  .infographics .infographics__content-back .infographics__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector {
+    margin: 0 0 67px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 300px !important;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text {
+    margin: 0 0 0 5px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics__text {
+    margin: 16px 0 0 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics-heading {
+    line-height: 80%;
+    top: 0;
+    font-size: 56px;
+    margin: 18px 0 0 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .infographics-heading__text .infographics-heading.last {
+    margin: 0;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector .icon__vector {
+    max-width: 140px !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1AB8EC), to(#02489F));
+    background-image: linear-gradient(180deg, #1AB8EC 0%, #02489F 100%);
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-2::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3 {
+    max-width: 78.5px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-3::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4 {
+    top: 4.6px;
+    max-width: 129px;
+    font-size: 100px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-4::before {
+    display: block;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5 {
+    max-width: 129px;
+    font-size: 104px;
+  }
+  .infographics .infographics__content-back .infographics__content .infographics__vector ._icon-Vector-5::before {
+    display: block;
+  }
+  .media .media__content-back {
+    padding: 74px 10px 74px 10px;
+  }
+  .media .media__content-back .media-heading__buttons {
+    margin: 0 0 32px 0;
+  }
+  .media .media__content-back .media-heading__buttons .media-heading {
+    font-size: 30px;
+  }
+  .media .media__content-back .media-heading__buttons .media-buttons .swiper-button-prev-two {
+    width: 32px;
+    height: 32px;
+    margin: 0 16px 0 0;
+  }
+  .media .media__content-back .media-heading__buttons .media-buttons .swiper-button-next-two {
+    width: 32px;
+    height: 32px;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__date-photo {
+    margin: 16px 0 16px 0;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media-text {
+    margin: 0 0 16px 0;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__tags .media__tag-container {
+    margin: 0 0 8px 0;
+  }
+  .media .media__content-back .media__content .swiper-wrapper .media__tags .media__tag-container .media__tag {
+    white-space: nowrap;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__date-photo {
+    margin: 16px 0 16px 0;
+  }
+  .media .media__content-back .media__content .media__small-slide .media-text {
+    margin: 0 0 16px 0;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__tags .media__tag-container {
+    margin: 0 0 8px 0;
+  }
+  .media .media__content-back .media__content .media__small-slide .media__tags .media__tag-container .media__tag {
+    white-space: nowrap;
+  }
+  .media .main__button {
+    max-width: 300px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back {
+    padding: 72px 10px 72px 10px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__selects {
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select {
+    margin: 0 20px 0 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__selects .select:last-child {
+    margin: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-prev-calend {
+    margin: 0 16px 0 0;
+    width: 32px;
+    height: 32px;
+    fill: #02489f;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-prev-calend:hover {
+    fill: rgba(2, 72, 159, 0.7);
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-next-calend {
+    width: 32px;
+    height: 32px;
+    -webkit-transition: 0.3s ease 0s;
+    transition: 0.3s ease 0s;
+    fill: #02489f;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-next-calend:hover {
+    fill: rgba(2, 72, 159, 0.7);
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-buttons__slider .swiper-button-disabled {
+    fill: rgba(2, 72, 159, 0.3);
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar-heading {
+    font-size: 30px;
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein {
+    margin: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-1 .calendar-kind__sport-date h2 {
+    font-size: 17px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-2 .container-2__content .calendar-event__tournament {
+    font-size: 17px;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 {
+    margin: 0;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content {
+    padding: 0;
+  }
+  .competition-calendar .competition-calendar__back .calendar-back .calendar__content .calendar__mein .swiper-wrapper .swiper-slide .calendar-event .calendar-event__container-3 .container-3__content .results {
+    margin: 0 0 32px 0;
+  }
+  .competition-calendar .competition-calendar__back .main__button {
+    display: none;
+  }
+  .projects .projects__content-back {
+    padding: 73px 10px 73px 10px;
+  }
+  .projects .projects__content-back .projects__heading {
+    font-size: 30px;
+  }
+  .projects .projects__content-back .projects__content {
+    gap: 32px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0 0 43px 0;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card:nth-child(2) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__image {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__double-card .double-card__content .double-card__text h1 {
+    font-size: 17px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card .single-card__image {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__single-card .single-card__text h2 {
+    font-size: 17px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .projects__content .projects__vertical-card .vertical-card__image {
+    max-width: 700px;
+  }
+  .projects .projects__content-back .main__button {
+    max-width: 300px;
+  }
+  .sports-objects .sports-objects__content-back {
+    padding: 72px 10px 72px 10px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0 0 32px 0;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__heading {
+    font-size: 30px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map {
+    margin: 16px 0 0 0;
+    font-size: 20px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__link .sports-objects__map .sports-objects__arrow {
+    width: 24px;
+    height: 24px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content {
+    gap: 32px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0 0 48px 0;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place {
+    max-width: 680px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place:last-child {
+    display: block;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-objects__image {
+    max-width: 680px;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map {
+    margin: 8px 0 0 0;
+  }
+  .sports-objects .sports-objects__content-back .sports-objects__content .sports-objects__place .sports-object__place-map .sports-object__place {
+    font-size: 17px;
+  }
+  .sports-objects .main__button {
+    max-width: 300px;
+  }
+  .magazine .magazine-back .section__8-left-top {
+    width: 160px;
+    height: 210px;
+  }
+  .magazine .magazine-back .section__8-right {
+    width: 190px;
+    height: 165px;
+    top: 408px;
+  }
+  .magazine .magazine-back .magazine__content-back {
+    padding: 72px 10px 72px 10px;
+  }
+  .magazine .magazine-back .magazine__content-back h1 {
+    font-size: 40px;
+    margin: 0 0 32px 0;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    -webkit-column-gap: 20px !important;
+            column-gap: 20px !important;
+    row-gap: 32px !important;
+    margin: 0 0 48px 0;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product:nth-last-child(1) {
+    display: block;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name-price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .magazine .magazine-back .magazine__content-back .magazine__content .magazine__product .product__name {
+    margin: 0 0 4px 0;
+    font-size: 17px !important;
+  }
+  .magazine .magazine-back .main__button {
+    max-width: 300px;
+  }
+  .partnership .partership-back .partnership__content {
+    padding: 72px 10px 72px 10px;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 0 0 0;
+    margin: 0 0 32px 0;
+  }
+  .partnership .partership-back .partnership__content .partnership-heading__buttons .partnership-heading {
+    font-size: 30px;
+  }
+  .partnership .partership-back .partnership__content .partnership-buttons {
+    margin: 16px 0 0 0;
+  }
+  .partnership .partership-back .partnership__content .partnership-buttons .swiper-button-prev-three {
+    margin: 0 16px 0 0;
+    width: 32px;
+    height: 32px;
+  }
+  .partnership .partership-back .partnership__content .partnership-buttons .swiper-button-next-three {
+    width: 32px;
+    height: 32px;
+  }
+  .partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership-descr a {
+    margin: 0 0 20px 0;
+  }
+  .partnership .partership-back .partnership__content .partnership__product .swiper-container-three .swiper-wrapper .swiper-slide .partnership__slide-content {
+    padding: 0 0 20px 20px;
+  }
+  .news .news-back .news__left-top {
+    top: 124px;
+    width: 120%;
+    height: 190px;
+  }
+  .news .news-back .news__right-bottom {
+    display: none;
+  }
+  .news .news-back .news__content {
+    padding: 72px 10px 72px 10px;
+  }
+  .news .news-back .news__content .news-heading {
+    font-size: 30px;
+    margin: 0 0 32px 0;
+  }
+  .news .news-back .news__content .news__product {
+    gap: 0;
+    margin: 0;
+  }
+  .news .news-back .news__content .news__product .news__image {
+    margin: 0 0 16px 0;
+  }
+  .news .news-back .news__content .news__product .news__section {
+    margin: 0 0 48px 0;
+  }
+  .news .news-back .news__content .news__product .news__section .heading-text__link .news-heading__small {
+    font-size: 20px;
+    margin: 16px 0 16px 0;
+  }
+  .news .news-back .news__content .news__product .news__section .heading-text__link .news-text {
+    margin: 0 0 16px 0;
+    font-size: 15px;
+  }
+  .news .news-back .main__button {
+    max-width: 300px;
+  }
+}
+
+/*media*/
