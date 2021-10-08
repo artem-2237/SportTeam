@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/maps.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script defer src="js/maps.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <a href="index.html" class="logo__header-circle"><img src="img/header/logo__header-circle.svg" alt="logotype"></a>
+            <div class="header-vertical__devider"></div>
+            <a href="index.html" class="logo__header-middle"><img src="img/header/logo__header-middle.svg" alt="logotype"></a>
+            <a href="index.html" class="logo__header-text"><img src="img/header/logo__header-text.svg" alt="text"></a>
+            <div class="menu__icon">
+                <a></a>
+                <div class="menu__burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="menu__black-back">
+
+        </div>
+        <div class="menu__body">
+            <div class="menu__content-back">
+                <img src="img/header/burger-left__top.svg" alt="" class="burger-element__top">
+                <img src="img/header/burger-art__bottom.svg" alt="" class="burger-element__bottom">
+                <div class="menu__content">
+                    <div class="menu__links">
+                        <ul>
+                            <li class="menu__heading"><a>О НАС</a></li>
+                            <li><a href="about__us.html" class="menu__text">О нас</a></li>
+                            <li><a href="projects-page__main.html" class="menu__text">Проекты</a></li>
+                            <li><a href="news-page__main.html" class="menu__text">Новости</a></li>
+                            <li><a href="media-page__main.html" class="menu__text">Медиа</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>ИНФО</a></li>
+                            <li><a href="trip__department.html" class="menu__text">Отдел командирования</a></li>
+                            <li><a href="documents.html" class="menu__text">Документы</a></li>
+                            <li><a href="vacancies.html" class="menu__text">Вакансии</a></li>
+                            <li><a href="contactns.html" class="menu__text">Контакты</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>СПОРТ</a></li>
+                            <li><a href="calendar.html" class="menu__text">Календарь соревнований</a></li>
+                            <li><a href="sportobj.html" class="menu__text">Спортивные объекты</a></li>
+                            <li><a href="sportsmans.html" class="menu__text">Спортсмены</a></li>
+                            <li><a href="market.html" class="menu__text">Магазин</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu__social">
+                        <a href="#" class="_icon-ig social__link"></a>
+                        <a href="#" class="_icon-vk social__link"></a>
+                        <a href="#" class="_icon-yt social__link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- main -->
+    <div class="maps-page_container">
+        <div class="content">
+            <nav class='nav'>
+                <div class="site-nav">
+                    <a href="#" class="site-nav__back">
+                        <img src="img/maps/arrow-left.png" alt="" class="site-nav__back_img">
+                        <span class="site-nav__back_text">НАЗАД</span>
+                    </a>
+                    <a href="index.html" class="site-nav__home">
+                        <img src="img/maps/home-icon.png" alt="" class="site-nav__home_img">
+                        <span class="site-nav__home_text">НА ГЛАВНУЮ</span>
+                    </a>
+                </div>
+                <div class="search">
+                    <div class="search-input_wrapper">
+                        <input type="text" class="search__input" placeholder="Поиск">
+                        <div class="input-icons">
+                            <div class="search-icon_wrapper">
+                                <img src="img/maps/search-icon.png" alt="" class="search-icon">
+                            </div>
+                            <img src="img/maps/close-icon.png" alt="" class="close-icon">
+                        </div>
+                    </div>
+                    <div class="filter__button">
+                        <button class="filter__button">
+                            <img src="img/maps/filter-icon.png" alt="" class="filter-icon">
+                        </button>
+                    </div>
+                </div>
+                <!-- filter -->
+                <div class="filter_wrapper filter_closed">
+                    <h2 class="filter__title">Фильтры</h2>
+                    <form action="" class="filter__form">
+                        <div class="filter__list inf__list">
+                            <button class="filter__item inf__item">
+                                <span class="inf__item_text">
+                                    Бассейн
+                                </span>
+                                <span class="close">×</span>
+                            </button>
+                            <button class="filter__item inf__item">
+                                <span class="inf__item_text">Тренажерный зал</span>
+                                <span class="close">×</span>
+                            </button>
+                            <button class="filter__item inf__item" inf__item>
+                                <span class="inf__item_text">
+                                    Ледовая арена
+                                </span>
+                                <span class="close">×</span>
+                            </button>
+                            <button class="filter__item inf__item" inf__item>
+                                <span class="inf__item_text">
+                                    Футбольное поле
+                                </span>
+                                <span class="close">×</span>
+                            </button>
+                        </button>
+                        <button class="filter__item inf__item">
+                            <span class="inf__item_text">Тренажерный зал</span>
+                            <span class="close">×</span>
+                        </button>
+                        <button class="filter__item inf__item" inf__item>
+                            <span class="inf__item_text">
+                                Ледовая арена
+                            </span>
+                            <span class="close">×</span>
+                        </button>
+                        <button class="filter__item inf__item" inf__item>
+                            <span class="inf__item_text">
+                                Футбольное поле
+                            </span>
+                            <span class="close">×</span>
+                        </button>
+                    </button>
+                    <button class="filter__item inf__item">
+                        <span class="inf__item_text">Тренажерный зал</span>
+                        <span class="close">×</span>
+                    </button>
+                    <button class="filter__item inf__item" inf__item>
+                        <span class="inf__item_text">
+                            Ледовая арена
+                        </span>
+                        <span class="close">×</span>
+                    </button>
+                    
+                        </div>
+                        <div class="filter__input_wrapper">
+                            <input type="text" class="filter__input" id="city-input" placeholder="Город">
+                            <div class="filter__input_dec"><span class="arrow-down">&#x25BC;</span>
+                            </div>
+                        </div>
+                        <div class="filter__input_wrapper">
+                            <input type="text" class="filter__input" id="region-input" placeholder="Район">
+                            <div class="filter__input_dec"><span class="arrow-down">&#x25BC;</span>
+                            </div>
+                        </div>
+                        <button class="filter__submit" type="submit">ПРИМЕНИТЬ</button>
+                    </form>
+                </div>
+            </nav>
+
+            <!-- objects -->
+            <div class="objects_container">
+                <div city="Москва" region="Москва" class="object">
+
+                    <div class="object__img_container">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                    </div>
+    
+                    <div class="object__info">
+                        <h2 class="object__title">Название объекта в две строчки</h2>
+                        <span class="object__description">Описание объкта в две строчки очень длинное</span>
+
+                        <div class="inf_wrapp">
+                            <span class="inf__text">Инфраструктура</span>
+                            <ul class="inf__list">
+                                <button class="inf__item">Бассейн</button>
+                                <button class="inf__item">Тренажерный зал</button>
+                            </ul>
+                        </div>
+
+                        <div class="full-object__address">
+                            <img src="img/maps/map-point-icon.png" alt="" class="full__address_img">
+                            <span class="full__address_text">Адрес</span>
+                        </div>
+                        <span class="object__adress contacts">Ул. Ново-Вокзальная, 70а</span>
+
+                        <div class="full-object__tel">
+                            <img src="img/maps/phone-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Контакты</span>
+                        </div>
+                        <a href="tel:+78463027942" class="object__tel contacts">+7 (846) 302-79-42</a>
+
+                        <div class="full-object__schedule">
+                            <img src="img/maps/clock-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Час работы</span>
+                        </div>
+                        <span class="object__schedule_text">Режим работы:</span>
+
+                        <div class="object__schedule_wrapper">
+                            <div class="object__schedule_table">
+                                <span class="object__schedule_time">07:00 - 22:00</span>
+                                <table class="object__sked">
+                                    <tr>
+                                        <td class="day">пн</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">вт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">ср</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">чт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">пт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">сб</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">нд</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="object__schedule_button">График <span class="arrow-down">&#x25BC;</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div city="Челябенск" region="Москва" class="object">
+
+                    <div class="object__img_container">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                    </div>
+    
+                    <div class="object__info">
+                        <h2 class="object__title">Название объекта в две строчки</h2>
+                        <span class="object__description">Описание объкта в две строчки очень длинное</span>
+
+                        <div class="inf_wrapp">
+                            <span class="inf__text">Инфраструктура</span>
+                            <ul class="inf__list">
+                                <button class="inf__item">Бассейн</button>
+                                <button class="inf__item">Тренажерный зал</button>
+                            </ul>
+                        </div>
+
+                        <div class="full-object__address">
+                            <img src="img/maps/map-point-icon.png" alt="" class="full__address_img">
+                            <span class="full__address_text">Адрес</span>
+                        </div>
+                        <span class="object__adress contacts">Ул. Ново-Вокзальная, 70а</span>
+
+                        <div class="full-object__tel">
+                            <img src="img/maps/phone-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Контакты</span>
+                        </div>
+                        <a href="tel:+78463027942" class="object__tel contacts">+7 (846) 302-79-42</a>
+
+                        <div class="full-object__schedule">
+                            <img src="img/maps/clock-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Час работы</span>
+                        </div>
+                        <span class="object__schedule_text">Режим работы:</span>
+
+                        <div class="object__schedule_wrapper">
+                            <div class="object__schedule_table">
+                                <span class="object__schedule_time">07:00 - 22:00</span>
+                                <table class="object__sked">
+                                    <tr>
+                                        <td class="day">пн</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">вт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">ср</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">чт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">пт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">сб</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">нд</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="object__schedule_button">График <span class="arrow-down">&#x25BC;</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div city="Белая Церковь" region="Москва" class="object">
+
+                    <div class="object__img_container">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                    </div>
+    
+                    <div class="object__info">
+                        <h2 class="object__title">Название объекта в две строчки</h2>
+                        <span class="object__description">Описание объкта в две строчки очень длинное</span>
+
+                        <div class="inf_wrapp">
+                            <span class="inf__text">Инфраструктура</span>
+                            <ul class="inf__list">
+                                <button class="inf__item">Бассейн</button>
+                                <button class="inf__item">Тренажерный зал</button>
+                            </ul>
+                        </div>
+
+                        <div class="full-object__address">
+                            <img src="img/maps/map-point-icon.png" alt="" class="full__address_img">
+                            <span class="full__address_text">Адрес</span>
+                        </div>
+                        <span class="object__adress contacts">Ул. Ново-Вокзальная, 70а</span>
+
+                        <div class="full-object__tel">
+                            <img src="img/maps/phone-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Контакты</span>
+                        </div>
+                        <a href="tel:+78463027942" class="object__tel contacts">+7 (846) 302-79-42</a>
+
+                        <div class="full-object__schedule">
+                            <img src="img/maps/clock-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Час работы</span>
+                        </div>
+                        <span class="object__schedule_text">Режим работы:</span>
+
+                        <div class="object__schedule_wrapper">
+                            <div class="object__schedule_table">
+                                <span class="object__schedule_time">07:00 - 22:00</span>
+                                <table class="object__sked">
+                                    <tr>
+                                        <td class="day">пн</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">вт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">ср</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">чт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">пт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">сб</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">нд</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="object__schedule_button">График <span class="arrow-down">&#x25BC;</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div city="Тверь" region="Москва" class="object">
+
+                    <div class="object__img_container">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                    </div>
+    
+                    <div class="object__info">
+                        <h2 class="object__title">Название объекта в две строчки</h2>
+                        <span class="object__description">Описание объкта в две строчки очень длинное</span>
+
+                        <div class="inf_wrapp">
+                            <span class="inf__text">Инфраструктура</span>
+                            <ul class="inf__list">
+                                <button class="inf__item">Бассейн</button>
+                                <button class="inf__item">Тренажерный зал</button>
+                            </ul>
+                        </div>
+
+                        <div class="full-object__address">
+                            <img src="img/maps/map-point-icon.png" alt="" class="full__address_img">
+                            <span class="full__address_text">Адрес</span>
+                        </div>
+                        <span class="object__adress contacts">Ул. Ново-Вокзальная, 70а</span>
+
+                        <div class="full-object__tel">
+                            <img src="img/maps/phone-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Контакты</span>
+                        </div>
+                        <a href="tel:+78463027942" class="object__tel contacts">+7 (846) 302-79-42</a>
+
+                        <div class="full-object__schedule">
+                            <img src="img/maps/clock-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Час работы</span>
+                        </div>
+                        <span class="object__schedule_text">Режим работы:</span>
+
+                        <div class="object__schedule_wrapper">
+                            <div class="object__schedule_table">
+                                <span class="object__schedule_time">07:00 - 22:00</span>
+                                <table class="object__sked">
+                                    <tr>
+                                        <td class="day">пн</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">вт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">ср</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">чт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">пт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">сб</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">нд</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="object__schedule_button">График <span class="arrow-down">&#x25BC;</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div city="Екатеренбург" region="Москва" class="object">
+
+                    <div class="object__img_container">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                        <img src="img/maps/obj_img1.jpg" alt="" class="object__img" width="165px">
+                    </div>
+    
+                    <div class="object__info">
+                        <h2 class="object__title">Название объекта в две строчки</h2>
+                        <span class="object__description">Описание объкта в две строчки очень длинное</span>
+
+                        <div class="inf_wrapp">
+                            <span class="inf__text">Инфраструктура</span>
+                            <ul class="inf__list">
+                                <button class="inf__item">Бассейн</button>
+                                <button class="inf__item">Тренажерный зал</button>
+                            </ul>
+                        </div>
+
+                        <div class="full-object__address">
+                            <img src="img/maps/map-point-icon.png" alt="" class="full__address_img">
+                            <span class="full__address_text">Адрес</span>
+                        </div>
+                        <span class="object__adress contacts">Ул. Ново-Вокзальная, 70а</span>
+
+                        <div class="full-object__tel">
+                            <img src="img/maps/phone-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Контакты</span>
+                        </div>
+                        <a href="tel:+78463027942" class="object__tel contacts">+7 (846) 302-79-42</a>
+
+                        <div class="full-object__schedule">
+                            <img src="img/maps/clock-icon.png" alt="" class="full__tel_img">
+                            <span class="full__tel_text">Час работы</span>
+                        </div>
+                        <span class="object__schedule_text">Режим работы:</span>
+
+                        <div class="object__schedule_wrapper">
+                            <div class="object__schedule_table">
+                                <span class="object__schedule_time">07:00 - 22:00</span>
+                                <table class="object__sked">
+                                    <tr>
+                                        <td class="day">пн</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">вт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">ср</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">чт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">пт</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">сб</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">нд</td>
+                                        <td class="time">07:00 - 22:00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <button class="object__schedule_button">График <span class="arrow-down">&#x25BC;</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+        <div class="map">
+            <img src="img/maps/map.png" alt="">
+        </div>
+    </div>
+<!-- /main -->
+
+    <footer>
+        <div class="footer__content-back">
+            <div class="footer__content">
+                <div class="menu__links">
+                    <div class="footer__logotype-text">
+                        <a href="#" class="samara__logotype-link"><img src="img/footer/samara__logotype.svg" alt=""></a>
+                        <div class="text-text">
+                            <a class="text__one">При поддержке</a>
+                            <a class="text__two">Министерство спорта<br>
+                                Самарской области</a>
+                        </div>
+                    </div>
+                    <div class="footer__links">
+                        <ul>
+                            <li class="menu__heading"><a>О НАС</a></li>
+                            <li><a href="about__us.html" class="menu__text">О нас</a></li>
+                            <li><a href="projects-page__main.html" class="menu__text">Проекты</a></li>
+                            <li><a href="news-page__main.html" class="menu__text">Новости</a></li>
+                            <li><a href="media-page__main.html" class="menu__text">Медиа</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>ИНФО</a></li>
+                            <li><a href="trip__department.html" class="menu__text">Отдел командирования</a></li>
+                            <li><a href="documents.html" class="menu__text">Документы</a></li>
+                            <li><a href="vacancies.html" class="menu__text">Вакансии</a></li>
+                            <li><a href="contactns.html" class="menu__text">Контакты</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>СПОРТ</a></li>
+                            <li><a href="calendar.html" class="menu__text">Календарь соревнований</a></li>
+                            <li><a href="#" class="menu__text">Спортивные объекты</a></li>
+                            <li><a href="sportsmans.html" class="menu__text">Спортсмены</a></li>
+                            <li><a href="#" class="menu__text">Магазин</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu__social">
+                        <a href="#" class="_icon-ig social__link"></a>
+                        <a href="#" class="_icon-vk social__link"></a>
+                        <a href="#" class="_icon-yt social__link"></a>
+                    </div>
+                </div>
+                <div class="footer__description">
+                    <span class="description-text">
+                        Официальны сайт СпортКоманда63. При использовании материалов ссылка 
+                            на источник обязательна. Электронная почта для обращений 
+                            (сотрудничество и реклама) 
+                            <a href="#" class="description-email">pr@sport-63.ru</a>
+                    </span>
+                    <a href="#" class="footer__confident">Положение о конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        $('.object__schedule_button').click(function() {
+            // alert($(this).find(".object__schedule_button"))
+            // let wrapper = $(this).parent;
+            let table = $(this).parent().find(".object__sked");
+            let arrow = $(this).find(".arrow-down");
+            table.toggleClass('open');
+            arrow.toggleClass('arrow-up');
+        });
+    </script>
+</body>
+</html>

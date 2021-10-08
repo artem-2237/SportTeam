@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/vacancy.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/icons__font.css">
+</head>
+<body>
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <form action="" class="main__form">
+                <div class="close-popup">
+                    <span></span>
+                </div>
+                <a class="popup__header">Связаться с нами</a>
+                <input type="text" name="name" class="input__text" placeholder="Ваше имя">
+                <input type="text" name="phone" class="input__text" placeholder="Телефон">
+                <input type="text" name="email" class="input__text" placeholder="Электронная почта">
+                <div class="form__file">
+                    <div class="file__button">
+                        <input type="file" accept=".doc, .pdf" name="summary" class="file" id="formImage">
+                        <img src="img/general/upload.svg" alt="" class="file__btn-image">
+                    </div>
+                    <span class="file-text">Прикрепить резюме<br>
+                        <a>doc, pdf</a></span>
+                </div>
+                <div class="file__preview" id="formPreview">
+                </div>
+                <div class="form__check">
+                    <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input" checked>
+                    <label for="formAgreement" class="form__label"><span>Я согласен(-на) на <a href="#">обработку персональных данных</a></span></label>
+                </div>
+                <button class="button send-form" type="button">Отправить<img src="img/main/right-arrow__magazine.svg" alt=""></button>
+            </form>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header>
+            <div class="header__content">
+                <a href="index.html" class="logo__header-circle"><img src="img/header/logo__header-circle.svg" alt="logotype"></a>
+                <div class="header-vertical__devider"></div>
+                <a href="index.html" class="logo__header-middle"><img src="img/header/logo__header-middle.svg" alt="logotype"></a>
+                <a href="index.html" class="logo__header-text"><img src="img/header/logo__header-text.svg" alt="text"></a>
+                <div class="menu__icon">
+                    <a></a>
+                    <div class="menu__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu__black-back">
+    
+            </div>
+            <div class="menu__body">
+                <div class="menu__content-back">
+                    <img src="img/header/burger-left__top.svg" alt="" class="burger-element__top">
+                    <img src="img/header/burger-art__bottom.svg" alt="" class="burger-element__bottom">
+                    <div class="menu__content">
+                        <div class="menu__links">
+                            <ul>
+                                <li class="menu__heading"><a>О НАС</a></li>
+                                <li><a href="about__us.html" class="menu__text">О нас</a></li>
+                                <li><a href="projects-page__main.html" class="menu__text">Проекты</a></li>
+                                <li><a href="news-page__main.html" class="menu__text">Новости</a></li>
+                                <li><a href="media-page__main.html" class="menu__text">Медиа</a></li>
+                            </ul>
+                            <ul>
+                                <li class="menu__heading"><a>ИНФО</a></li>
+                                <li><a href="trip__department.html" class="menu__text">Отдел командирования</a></li>
+                                <li><a href="documents.html" class="menu__text">Документы</a></li>
+                                <li><a href="vacancies.html" class="menu__text">Вакансии</a></li>
+                                <li><a href="contactns.html" class="menu__text">Контакты</a></li>
+                            </ul>
+                            <ul>
+                                <li class="menu__heading"><a>СПОРТ</a></li>
+                                <li><a href="calendar.html" class="menu__text">Календарь соревнований</a></li>
+                                <li><a href="sportobj.html" class="menu__text">Спортивные объекты</a></li>
+                                <li><a href="sportsmans.html" class="menu__text">Спортсмены</a></li>
+                                <li><a href="market.html" class="menu__text">Магазин</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu__social">
+                            <a href="#" class="_icon-ig social__link"></a>
+                            <a href="#" class="_icon-vk social__link"></a>
+                            <a href="#" class="_icon-yt social__link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="vacancy">
+            <div class="page__navigation">
+                <a href="index.html" class="navigation__home"><img src="img/general/navigation__home.svg" alt=""></a>
+                <a class="navigation__separator">></a>
+                <a href="vacancies.html" class="navigation__page-link">Вакансии</a>
+                <a class="navigation__separator">></a>
+                <a href="vacancy.html" class="navigation__page-link">Наименование вакансии</a>
+            </div>
+            <div class="vacancy__content">
+                <div class="vacancy__text">
+                    <h1 class="vacancy__name">
+                        Наименование вакансии
+                    </h1>
+                    <a class="vacancy__money">
+                        99 999 ₽
+                    </a>
+                    <a class="vacancy__place">СК «Орбита»</a>
+                    <a class="vacancy__place-city">Самара</a>
+                </div>
+                <a class="main__button popup-link" href="#popup">СВЯЗАТЬСЯ С НАМИ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+                <div class="vacancy__descr">
+                    <a class="work__experience">Требуемый опыт работы: 1-3 года</a>
+                    <a class="work__day">Полная занятость, полный рабочий день</a>
+                    <a class="duties__heading">Обязанности</a>
+                    <ul class="duties__list">
+                        <li><a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></li>
+                        <li><a>Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></li>
+                        <li><a>Ut enim ad minim veniam, quis minim veniam, quis</a></li>
+                    </ul>
+                </div>
+                <a href="" class="vacancy__image">
+                    <img src="img/vacancy/orbita.png" alt="">
+                </a>
+            </div>
+        </section>
+        <footer>
+            <div class="footer__content-back">
+                <div class="footer__content">
+                    <div class="menu__links">
+                        <div class="footer__logotype-text">
+                            <a href="#" class="samara__logotype-link"><img src="img/footer/samara__logotype.svg" alt=""></a>
+                            <div class="text-text">
+                                <a class="text__one">При поддержке</a>
+                                <a class="text__two">Министерство спорта<br>
+                                    Самарской области</a>
+                            </div>
+                        </div>
+                        <div class="footer__links">
+                            <ul>
+                                <li class="menu__heading"><a>О НАС</a></li>
+                                <li><a href="about__us.html" class="menu__text">О нас</a></li>
+                                <li><a href="projects-page__main.html" class="menu__text">Проекты</a></li>
+                                <li><a href="news-page__main.html" class="menu__text">Новости</a></li>
+                                <li><a href="media-page__main.html" class="menu__text">Медиа</a></li>
+                            </ul>
+                            <ul>
+                                <li class="menu__heading"><a>ИНФО</a></li>
+                                <li><a href="trip__department.html" class="menu__text">Отдел командирования</a></li>
+                                <li><a href="documents.html" class="menu__text">Документы</a></li>
+                                <li><a href="vacancies.html" class="menu__text">Вакансии</a></li>
+                                <li><a href="contactns.html" class="menu__text">Контакты</a></li>
+                            </ul>
+                            <ul>
+                                <li class="menu__heading"><a>СПОРТ</a></li>
+                                <li><a href="calendar.html" class="menu__text">Календарь соревнований</a></li>
+                                <li><a href="#" class="menu__text">Спортивные объекты</a></li>
+                                <li><a href="sportsmans.html" class="menu__text">Спортсмены</a></li>
+                                <li><a href="#" class="menu__text">Магазин</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu__social">
+                            <a href="#" class="_icon-ig social__link"></a>
+                            <a href="#" class="_icon-vk social__link"></a>
+                            <a href="#" class="_icon-yt social__link"></a>
+                        </div>
+                    </div>
+                    <div class="footer__description">
+                        <span class="description-text">
+                            Официальны сайт СпортКоманда63. При использовании материалов ссылка 
+                                на источник обязательна. Электронная почта для обращений 
+                                (сотрудничество и реклама) 
+                                <a href="#" class="description-email">pr@sport-63.ru</a>
+                        </span>
+                        <a href="#" class="footer__confident">Положение о конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

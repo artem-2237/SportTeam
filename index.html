@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/icons__font.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <svg class="sprites">
+            <symbol id="right__arrow" viewBox="0 0 64 64">
+                <g>
+                    <path d="M36 8L30.0001 14L44.0001 28L4 28L4 35.9999H44L30.0001 50L36 56L60 32.0001L36 8Z"/>
+                </g>
+            </symbol>
+            <symbol id="left__arrow" viewBox="0 0 64 64">
+                <g>
+                    <path d="M28 56L33.9999 50L19.9999 36L60 36L60 28.0001L20 28.0001L33.9999 14L28 8.00001L4.00001 31.9999L28 56Z"/>
+                </g>
+            </symbol>
+    </svg>
+    <header>
+        <div class="header__content">
+            <a href="index.html" class="logo__header-circle"><img src="img/header/logo__header-circle.svg" alt="logotype"></a>
+            <div class="header-vertical__devider"></div>
+            <a href="index.html" class="logo__header-middle"><img src="img/header/logo__header-middle.svg" alt="logotype"></a>
+            <a href="index.html" class="logo__header-text"><img src="img/header/logo__header-text.svg" alt="text"></a>
+            <div class="menu__icon">
+                <a></a>
+                <div class="menu__burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="menu__black-back">
+
+        </div>
+        <div class="menu__body">
+            <div class="menu__content-back">
+                <img src="img/header/burger-left__top.svg" alt="" class="burger-element__top">
+                <img src="img/header/burger-art__bottom.svg" alt="" class="burger-element__bottom">
+                <div class="menu__content">
+                    <div class="menu__links">
+                        <ul>
+                            <li class="menu__heading"><a>О НАС</a></li>
+                            <li><a href="about__us.html" class="menu__text">О нас</a></li>
+                            <li><a href="projects-page__main.html" class="menu__text">Проекты</a></li>
+                            <li><a href="news-page__main.html" class="menu__text">Новости</a></li>
+                            <li><a href="media-page__main.html" class="menu__text">Медиа</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>ИНФО</a></li>
+                            <li><a href="trip__department.html" class="menu__text">Отдел командирования</a></li>
+                            <li><a href="documents.html" class="menu__text">Документы</a></li>
+                            <li><a href="vacancies.html" class="menu__text">Вакансии</a></li>
+                            <li><a href="contactns.html" class="menu__text">Контакты</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>СПОРТ</a></li>
+                            <li><a href="calendar.html" class="menu__text">Календарь соревнований</a></li>
+                            <li><a href="sportobj.html" class="menu__text">Спортивные объекты</a></li>
+                            <li><a href="sportsmans.html" class="menu__text">Спортсмены</a></li>
+                            <li><a href="market.html" class="menu__text">Магазин</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu__social">
+                        <a href="#" class="_icon-ig social__link"></a>
+                        <a href="#" class="_icon-vk social__link"></a>
+                        <a href="#" class="_icon-yt social__link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="infographics">
+        <div class="infographics__content-back">
+            <div class="infographics__content">
+                <div class="infographics__vector">
+                    <a class="_icon-Vector-2 icon__vector"></a>
+                    <div class="infographics-heading__text">
+                        <span class="infographics-heading">50</span>
+                    <span href="#" class="infographics__text">спортсменов <a class="_icon-Group-2007"></a></span>
+                    </div>
+                </div>
+                <div class="infographics__vector">
+                    <a class="_icon-Vector-3 icon__vector"></a>
+                    <div class="infographics-heading__text">
+                        <span class="infographics-heading">101</span>
+                    <span href="#" class="infographics__text">вид спорта <a class="_icon-Group-2007"></a></span>
+                    </div>
+                </div>
+                <div class="infographics__vector">
+                    <a class="_icon-Vector-4 icon__vector"></a>
+                    <div class="infographics-heading__text">
+                        <span class="infographics-heading">5</span>
+                    <span href="#" class="infographics__text">объектов <a class="_icon-Group-2007"></a></span>
+                    </div>
+                </div>
+                <div class="infographics__vector">
+                    <a class="_icon-Vector-5 icon__vector"></a>
+                    <div class="infographics-heading__text">
+                        <span class="infographics-heading last">46</span>
+                    <span href="#" class="infographics__text">олимпийских медалей <a class="_icon-Group-2007"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sports-objects">
+        <div class="sports-objects__content-back">
+            <div class="sports-objects__link">
+                <a class="sports-objects__heading">СПОРТИВНЫЕ ОБЪЕКТЫ</a>
+                <a href="maps.html" class="sports-objects__map">КАРТА
+                    <svg class="sports-objects__arrow">
+                        <use xlink:href="#right__arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="sports-objects__content">
+                <div class="sports-objects__place">
+                    <a href="#" class="sports-objects__image">
+                        <img src="img/main/place1.png" alt="">
+                    </a>
+                    <div class="sports-object__place-map">
+                        <a href="#" class="sports-object__place">Орбита</a>
+                        <a class="sports-object__map" href="#">На карте</a>
+                    </div>
+                </div>
+                <div class="sports-objects__place">
+                    <a href="#" class="sports-objects__image">
+                        <img src="img/main/place2.png" alt="">
+                    </a>
+                    <div class="sports-object__place-map">
+                        <a href="#" class="sports-object__place">Южный</a>
+                        <a class="sports-object__map" href="#">На карте</a>
+                    </div>
+                </div>
+                <div class="sports-objects__place">
+                    <a href="#" class="sports-objects__image">
+                        <img src="img/main/place3.png" alt="">
+                    </a>
+                    <div class="sports-object__place-map">
+                        <a href="#" class="sports-object__place">Озеро Белое</a>
+                        <a class="sports-object__map" href="#">На карте</a>
+                    </div>
+                </div>
+                <div class="sports-objects__place">
+                    <a href="#" class="sports-objects__image">
+                        <img src="img/main/place4.png" alt="">
+                    </a>
+                    <div class="sports-object__place-map">
+                        <a href="#" class="sports-object__place">Молодежный</a>
+                        <a class="sports-object__map" href="#">На карте</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="main__button">ВСЕ ОБЪЕКТЫ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="news-back">
+            <img src="img/main/news__left-top.svg" alt="" class="news__left-top">
+        <img src="img/main/news__right-bottom.svg" alt="" class="news__right-bottom">
+        <div class="news__content">
+            <a class="news-heading">НОВОСТИ</a>
+            <div class="news__product">
+                <a href="#" class="news__image"><img src="img/main/news__photo.jpg" alt=""></a>
+                <div class="news__section">
+                    <a class="news-date">25 мая 2021</a>
+                    <a href="news-page__galery.html" class="heading-text__link">
+                        <span class="news-heading__small">Потешкина, Ленский и Сухарев — бронзовые призеры чемпионата Европы</span>
+                        <span class="news-text">В Португалии прошел чемпионат Европы по плаванию среди спортсменов с поражением опорно-двигательного аппарата и с интеллектуальным нарушениями. Представители Центра спортивной подготовки на ...</span>
+                    </a>
+                    <div class="news__tags">
+                        <div class="news__tag-container"><span class="news__tag">Плавание</span></div>
+                    </div>
+                </div>
+                <div class="news__section">
+                    <a class="news-date">25 мая 2021</a>
+                    <a href="news-page__photo.html" class="heading-text__link">
+                        <span class="news-heading__small">Александр Кудашев завоевал бронзу на чемпионате Европы по водным видам спорта</span>
+                        <span class="news-text">В Будапеште в плавательном комплексе Дунай Арена состоялся чемпионат Европы по водным видам спорта. Данный турнир должен был пройти в мае 2020 года, но из-за пандемии коронавируса были перенесены на год.</span>
+                    </a>
+                    <div class="news__tags">
+                        <div class="news__tag-container"><span class="news__tag">Плавание</span></div>
+                    </div>
+                </div>
+                <div class="news__section">
+                    <a class="news-date">25 мая 2021</a>
+                    <a href="news-page__video.html" class="heading-text__link">
+                        <span class="news-heading__small">Министр спорта Сергей Кобылянский на YouTube-канале "СпортЦентрТВ"</span>
+                    <span class="news-text">Творческая бригада Центра спортивной подготовки на своем YouTube-канале "СпортЦентрТВ" представляет очередной выпуск программы с героями самарского спорта. На этот раз нашим героем стал министр спорта ...</span>
+                    </a>    
+                    <div class="news__tags">
+                        <div class="news__tag-container"><span class="news__tag">Проекты</span></div>
+                        <div class="news__tag-container"><span class="news__tag">СпортЦентрТВ</span></div>
+                    </div>
+                </div>
+            </div>
+            <a href="news-page__main.html" class="main__button">ВСЕ НОВОСТИ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+        </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="projects__content-back">
+                <a class="projects__heading">ПРОЕКТЫ</a>
+            <div class="projects__content">
+                <div class="projects__double-card">
+                    <a href="#" class="double-card__image">
+                        <img src="img/main/double1.png" alt="">
+                    </a>
+                    <div class="double-card__content">
+                        <div class="double-card__text">
+                            <h1>Экипировка 2021</h1>
+                        <hr>
+                        <a class="card__content-text">В презентации новой спортивной 
+                            экипировки приняли участие спортсмены сборных команд Самарской области.</a>
+                        <a href="sports__equipment.html" class="card__content-more">Подробнее</a>
+                        </div>
+                        <div class="card__content-tags">
+                            <a href="#" class="card__content-tag">ЗОЖ</a>
+                            <a href="#" class="card__content-tag">Проекты</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__double-card">
+                    <a href="#" class="double-card__image">
+                        <img src="img/main/double2.png" alt="">
+                    </a>
+                    <div class="double-card__content">
+                        <div class="double-card__text">
+                            <h1>Региональное печатное издание "СпортКоманда63"</h1>
+                        <hr>
+                        <a class="card__content-text">Издание содержит информацию о важнейших проектах Министерства спорта Самарской области.</a>
+                        <a href="videoblog63.html" class="card__content-more">Подробнее</a>
+                        </div>
+                        <div class="card__content-tags">
+                            <a href="#" class="card__content-tag">Газета</a>
+                            <a href="#" class="card__content-tag">Проекты</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__single-card">
+                    <a href="#" class="single-card__image"><img src="img/main/single1.png" alt=""></a>
+                    <div class="single-card__text">
+                        <h2>
+                            Фестиваль #СпортВоВсем
+                            на самарском пляже
+                        </h2>
+                        <div class="single-card-tags">
+                            <a href="#" class="single-card-tag">ЗОЖ</a>
+                            <a href="#" class="single-card-tag">Проекты</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__vertical-card">
+                    <a href="#" class="vertical-card__image"><img src="img/main/single2.png" alt=""></a>
+                    <div class="vertical-card__text">
+                        <div class="card__text-content">
+                            <h2>Спортивный календарь 2021</h2>
+                    <hr>
+                    <a class="single__content-text">Главными героями спортивного календаря стали талантливые молодые спортсмены губернии.</a>
+                    <a href="calendar-project.html" class="single__content-more">Подробнее</a>
+                        </div>
+                    <div class="vertical-card-tags">
+                        <a href="#" class="vertical-card-tag">Проекты</a>
+                    </div>
+                </div>
+                </div>
+                <div class="projects__vertical-card">
+                    <a href="#" class="vertical-card__image"><img src="img/main/single3.png" alt=""></a>
+                    <div class="vertical-card__text">
+                    <div class="card__text-content">
+                        <h2>Старый телевизор</h2>
+                        <hr>
+                        <a class="single__content-text">Вы многое узнаете о том, как развивалось олимпийское движение в Самарской области.</a>
+                        <a href="#" class="single__content-more">Подробнее</a>
+                    </div>
+                    <div class="vertical-card-tags">
+                        <a href="#" class="vertical-card-tag">Видео</a>
+                        <a href="#" class="vertical-card-tag">Проекты</a>
+                    </div>
+                </div>
+                </div>
+                <div class="projects__single-card">
+                    <div class="single-card__text">
+                        <h2>
+                            СпортКоманда63 за честный спорт
+                        </h2>
+                        <div class="single-card-tags">
+                            <a href="#" class="single-card-tag">Антидопинг</a>
+                            <a href="#" class="single-card-tag">Проекты</a>
+                        </div>
+                    </div>
+                    <a href="#" class="single-card__image"><img src="img/main/single4.png" alt=""></a>
+                </div>
+            </div>
+            <a href="projects-page__main.html" class="main__button">ВСЕ ПРОЕКТЫ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+        </div>
+    </section>
+
+    <section class="competition-calendar">
+        <div class="competition-calendar__back">
+            <img src="img/main/calendar-right__top.svg" alt="" class="calendar-right__top">
+            <img src="img/main/calendar-left__bottom.svg" alt="" class="calendar-left__bottom">
+        <div class="calendar-back">
+            <a class="calendar-heading">КАЛЕНДАРЬ СОРЕВНОВАНИЙ</a>
+            <div class="calendar__selects">
+                <div class="select">
+                    <div class="select__header">
+                        <span class="select__current">2021</span>
+                        <div class="select__icon">
+                            <img src="img/main/Polygon__select.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="select__body">
+                        <div class="select__item">2017</div>
+                        <div class="select__item">2018</div>
+                        <div class="select__item">2019</div>
+                        <div class="select__item">2020</div>
+                        <div class="select__item">2021</div>
+                    </div>
+                </div>
+                <div class="select">
+                    <div class="select__header">
+                        <span class="select__current">Март</span>
+                        <div class="select__icon">
+                            <img src="img/main/Polygon__select.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="select__body">
+                        <div class="select__item">Январь</div>
+                        <div class="select__item">Февраль</div>
+                        <div class="select__item">Март</div>
+                        <div class="select__item">Апрель</div>
+                        <div class="select__item">Май</div>
+                        <div class="select__item">Июнь</div>
+                        <div class="select__item">Июль</div>
+                        <div class="select__item">Август</div>
+                        <div class="select__item">Сентябрь</div>
+                        <div class="select__item">Октябрь</div>
+                        <div class="select__item">Ноябрь</div>
+                        <div class="select__item">Декабрь</div>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar-buttons__slider">
+                <svg class="swiper-button-prev-calend">
+                    <use xlink:href="#left__arrow"></use>
+                </svg>
+                <svg class="swiper-button-next-calend">
+                    <use xlink:href="#right__arrow"></use>
+                </svg>
+            </div>
+            <div class="calendar__content">
+                <div class="calendar-years">
+                    <button class="calendar-years__btn">2017</button>
+                    <button class="calendar-years__btn">2018</button>
+                    <button class="calendar-years__btn">2019</button>
+                    <button class="calendar-years__btn">2020</button>
+                    <button class="calendar-years__btn">2021</button>
+                </div>
+                <div class="calendar-months">
+                    <button class="calendar-months__btn">Январь</button>
+                    <button class="calendar-months__btn">Февраль</button>
+                    <button class="calendar-months__btn">Март</button>
+                    <button class="calendar-months__btn">Апрель</button>
+                    <button class="calendar-months__btn">Май</button>
+                    <button class="calendar-months__btn">Июнь</button>
+                    <button class="calendar-months__btn">Июль</button>
+                    <button class="calendar-months__btn">Август</button>
+                    <button class="calendar-months__btn">Сентябрь</button>
+                    <button class="calendar-months__btn">Октябрь</button>
+                    <button class="calendar-months__btn">Ноябрь</button>
+                    <button class="calendar-months__btn">Декабрь</button>
+                </div>
+                <div class="calendar__mein">
+                    <div class="swiper-wrapper wrapper-calend">
+                        <!-- Slides -->
+                        <div class="swiper-slide slide-calend">
+
+                            <div class="calendar-event">
+                                <div class="calendar-event__container-1">
+                                    <div class="kind__image">
+                                        <img src="img/main/vid1.svg" alt="" class="circle__icon">
+                                    </div>
+                                    <div class="calendar-kind__sport-date">
+                                        <h2>27 февраля – 2 марта</h2>
+                                    <a class="calendar-kind__sport">Фигурное катание</a>
+                                    </div>
+                                </div>
+                                <div class="calendar-event__container-2">
+                                    <div class="container-2__content">
+                                        <a class="calendar-event__place">Москва, Россия</a>
+                                    <a class="calendar-event__tournament">Кубок России</a>
+                                    <a class="calendar-event__participants">Участники:</a>
+                                    <div class="participants-list">
+                                        <a href="#" class="participant">Ангелина Лазарева</a>, 
+                                        <a href="#" class="participant">Максим Прокофьев</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="calendar-event__container-3">
+                                    <div class="container-3__content">
+                                        <a class="results">
+                                            Результаты:
+                                        </a>
+                                        <div class="calendar__medal-winners">
+                                            <div class="calendar__medal">
+                                                <img src="img/main/calendar_m3.svg" alt="">
+                                            </div>
+                                            <div class="calendar__winners">
+                                                <a class="medal__place">3 место</a>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"><a href="#" class="medal-name__link">Максим Прокофьев</a><a class="medal-description"> (танцы на льду)</a></span>
+                                                </div>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"><a href="#" class="medal-name__link">Ангелина Лазарева</a><a class="medal-description"> (танцы на льду)</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide slide-calend">
+
+                            <div class="calendar-event">
+                                <div class="calendar-event__container-1">
+                                    <div class="kind__image">
+                                        <img src="img/main/vid2.svg" alt="" class="circle__icon">
+                                    </div>
+                                    <div class="calendar-kind__sport-date">
+                                        <h2>1 – 3 марта</h2>
+                                    <a class="calendar-kind__sport">Фехтование</a>
+                                    </div>
+                                </div>
+                                <div class="calendar-event__container-2">
+                                    <div class="container-2__content">
+                                        <a class="calendar-event__place">Смоленск, Россия</a>
+                                    <a class="calendar-event__tournament">Всероссийские спортивные соревнования</a>
+                                    <a class="calendar-event__participants">Участники:</a>
+                                    <div class="participants-list">
+                                        <a href="#" class="participant">Ирина Охотникова</a>, 
+                                        <a href="#" class="participant">Павел Сухов</a>,
+                                        <a href="#" class="participant">Екатерина Тарасова</a>,
+                                        <a href="#" class="participant">Виолетта Хралина</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="calendar-event__container-3">
+                                    <div class="container-3__content">
+                                        <a class="results">
+                                            Результаты:
+                                        </a>
+                                        <div class="calendar__medal-winners">
+                                            <div class="calendar__medal">
+                                                <img src="img/main/calendar_m1.svg" alt="">
+                                            </div>
+                                            <div class="calendar__winners">
+                                                <a class="medal__place">1 место</a>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"><a href="#" class="medal-name__link">Павел Сухов</a><a class="medal-description"> (командный зачет)</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="calendar__medal-winners">
+                                            <div class="calendar__medal">
+                                                <img src="img/main/calendar_m2.svg" alt="">
+                                            </div>
+                                            <div class="calendar__winners">
+                                                <a class="medal__place">2 место</a>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"><a href="#" class="medal-name__link">Ирина Охотникова</a><a class="medal-description"> (личный зачет)</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="calendar__medal-winners">
+                                            <div class="calendar__medal">
+                                                <img src="img/main/calendar_m3.svg" alt="">
+                                            </div>
+                                            <div class="calendar__winners">
+                                                <a class="medal__place">3 место</a>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"><a href="#" class="medal-name__link">Виолетта Хралина</a><a class="medal-description"> (командный зачет)</a></span>
+                                                </div>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"><a href="#" class="medal-name__link">Ирина Охотникова</a><a class="medal-description"> (командный зачет)</a></span>
+                                                </div>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"><a href="#" class="medal-name__link">Павел Сухов</a><a class="medal-description"> (личный зачет)</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-slide slide-calend">
+                            <div class="calendar-event">
+                                <div class="calendar-event__container-1">
+                                    <div class="kind__image">
+                                        <img src="img/main/vid3.svg" alt="" class="circle__icon">
+                                    </div>
+                                    <div class="calendar-kind__sport-date">
+                                        <h2>1 – 5 марта</h2>
+                                    <a class="calendar-kind__sport">Плавание</a>
+                                    </div>
+                                </div>
+                                <div class="calendar-event__container-2">
+                                    <div class="container-2__content">
+                                        <a class="calendar-event__place">Краснодар, Россия</a>
+                                    <a class="calendar-event__tournament">Чемпионат России по плаванию среди спортсменов с ПОДА</a>
+                                    <a class="calendar-event__participants">Участники:</a>
+                                    <div class="participants-list">
+                                        <a href="#" class="participant">Вячеслав Ленский</a>, 
+                                        <a href="#" class="participant">Кирилл Пульвер</a>,
+                                        <a href="#" class="participant">Сергей Сухарев</a>, 
+                                        <a href="#" class="participant">Егор Щевелев</a> 
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="calendar-event__container-3">
+                                    <div class="container-3__content">
+                                        <a class="results">
+                                            Результаты:
+                                        </a>
+                                        <div class="calendar__medal-winners">
+                                            <div class="calendar__medal">
+                                                <img src="img/main/calendar_m1.svg" alt="">
+                                            </div>
+                                            <div class="calendar__winners">
+                                                <a class="medal__place">1 место</a>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"> <a href="#" class="medal-name__link">Сергей Сухарев</a><a class="medal-description"> (100 м вольным стилем)</a></span>
+                                                </div>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"> <a href="#" class="medal-name__link">Сергей Сухарев</a><a class="medal-description"> (50 м вольным стилем)</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="calendar__medal-winners">
+                                            <div class="calendar__medal">
+                                                <img src="img/main/calendar_m2.svg" alt="">
+                                            </div>
+                                            <div class="calendar__winners">
+                                                <a class="medal__place">2 место</a>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"> <a href="#" class="medal-name__link">Кирилл Пульвер</a><a class="medal-description"> (400 м вольным стилем)</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="calendar__medal-winners">
+                                            <div class="calendar__medal">
+                                                <img src="img/main/calendar_m3.svg" alt="">
+                                            </div>
+                                            <div class="calendar__winners">
+                                                <a class="medal__place">3 место</a>
+                                                <div class="medal-name__description">
+                                                    <span href="#" class="medal-name"> <a href="#" class="medal-name__link">Кирилл Пульвер</a><a class="medal-description"> (100 м вольным стилем)</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <a href="#" class="main__button">ЕЩЁ +12 В МАРТЕ<img src="img/main/bottom-arrow.svg" alt=""></a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="media">
+        <div class="media__content-back">
+            <div class="media-heading__buttons">
+                <a class="media-heading">МЕДИА</a>
+                <div class="media-buttons">
+                    <svg class="swiper-button-prev-two">
+                        <use xlink:href="#left__arrow"></use>
+                    </svg>
+                    <svg class="swiper-button-next-two">
+                        <use xlink:href="#right__arrow"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="media__content">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide media__big-slide">
+                            <div class="big-slide__image">
+                                <a href="#">
+                                    <img src="img/main/media1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="media__date-photo">
+                                <a class="media-date">9 марта 2021</a>
+                                <a class="media-photo"></a>
+                            </div>
+                            <a class="media-text">Презентация новой спортивной экипировки для атлетов спортивных сборных команд Самарской области</a>
+                            <div class="media__tags">
+                                <div class="media__tag-container">
+                                    <span class="media__tag">
+                                        Проекты
+                                    </span>
+                                </div>
+                                <div class="media__tag-container">
+                                    <span><a class="media__tag">
+                                        Спортивная экипировка
+                                    </a></span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide media__small-slide">
+                            <div class="small-slide__image">
+                                <a href="#">
+                                    <img src="img/main/media2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="media__date-photo">
+                                <a class="media-date">14 февраля 2021</a>
+                                <a class="media-photo"></a>
+                            </div>
+                            <a class="media-text">Софья Чичайкина. Мастер спорта России по плаванию.</a>
+                            <div class="media__tags">
+                                <div class="media__tag-container">
+                                    <span class="media__tag">
+                                        Плавание
+                                    </span>
+                                </div>
+                                <div class="media__tag-container">
+                                    <span class="media__tag">
+                                        Интервью
+                                    </span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide media__big-slide">
+                        <div class="big-slide__image">
+                                <a href="#">
+                                    <img src="img/main/media3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="media__date-photo">
+                                <a class="media-date">26 января 2021</a>
+                                <a class="media-photo">18 фото</a>
+                            </div>
+                            <a class="media-text">Вручение экипировки парасноубордисту Сергею Новикову</a>
+                            <div class="media__tags">
+                                <div class="media__tag-container">
+                                    <span class="media__tag">
+                                        Проекты
+                                    </span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide media__small-slide">
+                            <div class="small-slide__image">
+                                <a href="#">
+                                    <img src="img/main/media4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="media__date-photo">
+                                <a class="media-date">28 декабря 2020</a>
+                                <a class="media-photo">69 фото</a>
+                            </div>
+                            <a class="media-text">Спортивные итоги года 2020</a>
+                            <div class="media__tags">
+                                <div class="media__tag-container">
+                                    <span class="media__tag">
+                                        Проекты
+                                    </span>
+                                </div>
+                            </div>
+                    </div>
+                  </div>
+            </div>
+            <a href="media-page__main.html" class="main__button">ВСЕ МЕДИА<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+        </div>
+    </section>
+
+
+
+    <section class="magazine">
+        <div class="magazine-back">
+            <img src="img/main/section__8-left-top.svg" alt="" class="section__8-left-top">
+        <img src="img/main/section__8-right.svg" alt="" class="section__8-right">
+        <div class="magazine__content-back">
+            <h1>
+                МАГАЗИН
+            </h1>
+            <div class="magazine__content">
+                <div class="magazine__product">
+                    <a href="#" class="product__image"><img src="img/main/Mask Group.png" alt=""></a>
+                    <a class="product__type">Одежда</a>
+                    <div class="product__name-price">
+                        <a class="product__name">Футболка</a>
+                        <a class="product__price">1 000 ₽</a>
+                    </div>
+                </div>
+                <div class="magazine__product">
+                    <a href="#" class="product__image"><img src="img/main/Mask Group (1).png" alt=""></a>
+                    <a class="product__type">Головной убор</a>
+                    <div class="product__name-price">
+                        <a class="product__name">Шапка</a>
+                        <a class="product__price">800 ₽</a>
+                    </div>
+                </div>
+                <div class="magazine__product">
+                    <a href="#" class="product__image"><img src="img/main/Mask Group (2).png" alt=""></a>
+                    <a class="product__type">Одежда</a>
+                    <div class="product__name-price">
+                        <a class="product__name">Худи</a>
+                        <a class="product__price">3 000 ₽</a>
+                    </div>
+                </div>
+                <div class="magazine__product">
+                    <a href="#" class="product__image"><img src="img/main/Mask Group (3).png" alt=""></a>
+                    <a class="product__type">Головной убор</a>
+                    <div class="product__name-price">
+                        <a class="product__name">Кепка</a>
+                        <a class="product__price">1 000 ₽</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="main__button">КАТАЛОГ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+        </div>
+        </div>
+    </section>
+    <section class="partnership">
+        <div class="partership-back">
+            <div class="partnership__content">
+                <div class="partnership-heading__buttons">
+                    <a class="partnership-heading">ПАРТНЁРСТВО</a>
+                    <div class="partnership-buttons">
+                        <svg class="swiper-button-prev-three">
+                            <use xlink:href="#left__arrow"></use>
+                        </svg>
+                        <svg class="swiper-button-next-three">
+                            <use xlink:href="#right__arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="partnership__product">
+                    <div class="swiper-container-three">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                        <div class="swiper-slide slide-descr">
+                            <div class="partnership-descr">
+                                <a href="#">ПЕРЕЙТИ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+                            </div>
+                            <div class="partnership__slide-content">
+                                <div class="partnership__tags">
+                                    <div class="partnership__tag-container"><span class="partnership__tag">Партнер</span></div>
+                                </div>
+                            </div>
+                            <a href="#" class="partnership-link">
+                            <img src="img/main/kidburg.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide-descr">
+                            <div class="partnership-descr">
+                                <a href="#">ПЕРЕЙТИ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+                            </div>
+                            <div class="partnership__slide-content">
+                                <div class="partnership__tags">
+                                    <div class="partnership__tag-container"><span class="partnership__tag">Благотворительность</span></div>
+                                </div>
+                            </div>
+                              <a href="#" class="partnership-link">
+                            <img src="img/main/yamaguchi.png" alt="">
+                        </a>
+                        </div>
+                        <div class="swiper-slide slide-descr">
+                            <div class="partnership-descr">
+                                <a href="#">ПЕРЕЙТИ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+                            </div>
+                            <div class="partnership__slide-content">
+                                <div class="partnership__tags">
+                                    <div class="partnership__tag-container"><span class="partnership__tag">Партнер</span></div>
+                                </div>
+                            </div>
+                            <a href="#" class="partnership-link">
+                            <img src="img/main/kidburg.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide-descr">
+                            <div class="partnership-descr">
+                                <a href="#">ПЕРЕЙТИ<img src="img/main/right-arrow__magazine.svg" alt=""></a>
+                            </div>
+                            <div class="partnership__slide-content">
+                                <div class="partnership__tags">
+                                    <div class="partnership__tag-container"><span class="partnership__tag">Благотворительность</span></div>
+                                </div>
+                            </div>
+                              <a href="#" class="partnership-link">
+                            <img src="img/main/yamaguchi.png" alt="">
+                        </a>
+                        </div>
+                        </div>
+                      
+                        <!-- If we need navigation buttons -->
+                      
+                        <!-- If we need scrollbar -->
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__content-back">
+            <div class="footer__content">
+                <div class="menu__links">
+                    <div class="footer__logotype-text">
+                        <a href="#" class="samara__logotype-link"><img src="img/footer/samara__logotype.svg" alt=""></a>
+                        <div class="text-text">
+                            <a class="text__one">При поддержке</a>
+                            <a class="text__two">Министерство спорта<br>
+                                Самарской области</a>
+                        </div>
+                    </div>
+                    <div class="footer__links">
+                        <ul>
+                            <li class="menu__heading"><a>О НАС</a></li>
+                            <li><a href="about__us.html" class="menu__text">О нас</a></li>
+                            <li><a href="projects-page__main.html" class="menu__text">Проекты</a></li>
+                            <li><a href="news-page__main.html" class="menu__text">Новости</a></li>
+                            <li><a href="media-page__main.html" class="menu__text">Медиа</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>ИНФО</a></li>
+                            <li><a href="trip__department.html" class="menu__text">Отдел командирования</a></li>
+                            <li><a href="documents.html" class="menu__text">Документы</a></li>
+                            <li><a href="vacancies.html" class="menu__text">Вакансии</a></li>
+                            <li><a href="contactns.html" class="menu__text">Контакты</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu__heading"><a>СПОРТ</a></li>
+                            <li><a href="calendar.html" class="menu__text">Календарь соревнований</a></li>
+                            <li><a href="#" class="menu__text">Спортивные объекты</a></li>
+                            <li><a href="sportsmans.html" class="menu__text">Спортсмены</a></li>
+                            <li><a href="#" class="menu__text">Магазин</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu__social">
+                        <a href="#" class="_icon-ig social__link"></a>
+                        <a href="#" class="_icon-vk social__link"></a>
+                        <a href="#" class="_icon-yt social__link"></a>
+                    </div>
+                </div>
+                <div class="footer__description">
+                    <span class="description-text">
+                        Официальны сайт СпортКоманда63. При использовании материалов ссылка 
+                            на источник обязательна. Электронная почта для обращений 
+                            (сотрудничество и реклама) 
+                            <a href="#" class="description-email">pr@sport-63.ru</a>
+                    </span>
+                    <a href="#" class="footer__confident">Положение о конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slides__main.js"></script>
+    <script src="js/calendar.js"></script>
+</body>
+</html>
